@@ -74,7 +74,7 @@ Crops - Barren
 Crops - Shrubs and Scrubs
 Details of methodology can be found in the technical manual and the codebase on github.
 "
-change_cropping_intensity,"Cropping intensity change detection map for India. The various change detection maps are Change in Land use layers are computing by using IndiaSAT Land Use Land Cover outputs and computing the change in pixel classes across the years. Currently the layer is computed for the period of 2017-2022 and two composite images are generated using the mode of the first three years (2017-2019) and the last three years (2020-2022) and a transition matrix is prepared for the classes for these outputs. 
+change_cropping_intensity_raster,"Cropping intensity change detection map for India. The various change detection maps are Change in Land use layers are computing by using IndiaSAT Land Use Land Cover outputs and computing the change in pixel classes across the years. Currently the layer is computed for the period of 2017-2022 and two composite images are generated using the mode of the first three years (2017-2019) and the last three years (2020-2022) and a transition matrix is prepared for the classes for these outputs. 
 
 Cropping intensity change layer includes transitions from single to double cropping, single to triple cropping, double to single cropping, double to triple cropping, triple to double cropping and triple to single cropping. Following are the classes in this layer: 
 Double - Single
@@ -181,11 +181,11 @@ Severe
 Moderate
 Mild
 
-Input to the model is Rainfall data  (CHIRPS), Vegetation data (Landsat), Crop data (MODIS), Land use land cover (IndiaSAT). Details of methodology can be found in the technical manual and the codebase on github.
-"
+Input to the model is Rainfall data  (CHIRPS), Vegetation data (Landsat), Crop data (MODIS), Land use land cover (IndiaSAT). Details of methodology can be found in the technical manual and the codebase on github."
 surface_water_bodies_vector,"Surface water bodies map for India. Surface Water is any body of water above ground, including streams, rivers, and lakes. To generate this map, water pixels from the Land Use Land Cover model (IndiaSAT) for each year are taken and converted into a vector layer. Given the intra annual classes for water availability based on India’s agriculture calendar in IndiaSAT, water availability in each season of the year (kharif, rabi, zaid) for each of the waterbodies is computed. This data is also combined with waterbody census data (2023) to additionally get a capacity map for the waterbodies.  Details of methodology can be found in the technical manual and the codebase on github. 
 "
 water_balance,"Water balance map for India at fortnightly temporal resolution. The law of water balance states that the inflows to any water system or area is equal to its outflows plus change in storage during a time interval. The general water balance equation is Precipitation (P) = Runoff (Qout) + Evapotranspiration (ET) +/- Change in ground water (ΔG). Precipitation data has been obtained from JAXA’s Global Satellite Mapping of Precipitation (GSMaP), Evapotranspiration data from FLDAS Noah land Surface model by NASA and USGS, and runoff has been computed on a per-pixel using slope-adjusted CN numbers, the hydrological soil group, and LULC. Details of methodology can be found in the technical manual and the codebase on github.
 "
 change_in_well_depth_vector,"Change in well depth map for India. Input data to compute change in well depth for each microwatershed is the specific yield obtained from aquifer data and water balance. This only takes the vertical flux into account and hence is likely to suffer from accuracy issues in the absence of accounting for lateral flow through the underlying aquifer. Details of methodology can be found in the technical manual and the codebase on github.
 "
+cropping_intensity_vector,"Cropping intensity map for India. Cropping intensity is computed on the IndiaSAT Land Use Land Cover outputs by taking the weighted average of the area under single cropping, double cropping, and tripple/annual/perennial cropping. The vector map is available from 2017 onwards.Details of methodology can be found in the technical manual and the codebase on github."
