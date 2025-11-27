@@ -175,3 +175,11 @@ Following classes are available in the raster map:
 3. Mosaic restoration: Mosaic restoration is the integration of trees in a patchwork of different land uses including rainfed cultivated areas. These areas have tree cover density of less than 40 percent and population density of less than 400 persons per sq.km. 
 
 Details of the datasets used and the methodology can be found at [india.restorationatlas.org](https://india.restorationatlas.org/)"
+terrain_vector,"Terrain clusters map for India. Classes in the terrain raster map are grouped into five broad categories: plains, broad slopes, steep slopes, valleys and ridges. Percentage area under each category is computed for each microwatershed. Clustering process was applied to microwatersheds across diverse terrain blocks, including: Masalia, Angul, Mandalgarh, Pindwara, Mohanpur. The identified clusters are: 
+
+1. Broad sloppy and hilly
+2. Mostly plains
+3. Mostly hills and valleys
+4. Broad plains and slopes
+
+Precomputed cluster centroids are used to assign terrain clusters to new microwatersheds. Details of methodology can be found in the technical manual and the codebase on [github](https://github.com/core-stack-org/core-stack-backend/tree/main/computing/terrain_descriptor)."
