@@ -171,7 +171,7 @@ Precipitation data has been obtained from JAXA's Global Satellite Mapping of Pre
 The vector data contains timeseries of fortnightly mean precipitation (in mm), runoff (in mm), evapotranspiration (in mm), water balance (in mm), and cumulative water balance since 2017 as an indicator of cumulative surplus or deficit, for each microwatershed.
 
 Details of methodology can be found in the technical manual and the codebase on [github](https://github.com/core-stack-org/core-stack-backend/tree/main/computing/mws)."
-change_in_well_depth_vector,"Change in well depth map for India. Data to compute the water balance for each microwatershed as rainfall - evapotranspiration - runoff, along with the specific yield obtained from aquifer data are used to estimate the change in depth to water. Note that this only takes the vertical flux into account and hence is likely to suffer from accuracy issues in the absence of accounting for lateral flow through the underlying aquifer. 
+change_in_well_depth_vector,"Annual water balance map for India. Data to compute the water balance for each microwatershed as rainfall - evapotranspiration - runoff, along with the specific yield obtained from aquifer data are used to estimate the change in depth to water. Note that this only takes the vertical flux into account and hence is likely to suffer from accuracy issues in the absence of accounting for lateral flow through the underlying aquifer. 
 
 The vector data contains timeseries of annual mean precipitation (in mm), runoff (in mm), evapotranspiration (in mm), water balance (in mm), and cumulative water balance since 2017 as an indicator of cumulative surplus or deficit, for each microwatershed.
 
