@@ -171,7 +171,11 @@ Precipitation data has been obtained from JAXA's Global Satellite Mapping of Pre
 The vector data contains timeseries of fortnightly mean precipitation (in mm), runoff (in mm), evapotranspiration (in mm), water balance (in mm), and cumulative water balance since 2017 as an indicator of cumulative surplus or deficit, for each microwatershed.
 
 Details of methodology can be found in the technical manual and the codebase on [github](https://github.com/core-stack-org/core-stack-backend/tree/main/computing/mws)."
-change_in_well_depth_vector,Change in well depth map for India. Input data to compute change in well depth for each microwatershed is the specific yield obtained from aquifer data and water balance. This only takes the vertical flux into account and hence is likely to suffer from accuracy issues in the absence of accounting for lateral flow through the underlying aquifer. Details of methodology can be found in the technical manual and the codebase on [github](https://github.com/core-stack-org/core-stack-backend/blob/main/computing/mws/well_depth.py).
+change_in_well_depth_vector,"Change in well depth map for India. Data to compute the water balance for each microwatershed as rainfall - evapotranspiration - runoff, along with the specific yield obtained from aquifer data are used to estimate the change in depth to water. Note that this only takes the vertical flux into account and hence is likely to suffer from accuracy issues in the absence of accounting for lateral flow through the underlying aquifer. 
+
+The vector data contains timeseries of annual mean precipitation (in mm), runoff (in mm), evapotranspiration (in mm), water balance (in mm), and cumulative water balance since 2017 as an indicator of cumulative surplus or deficit, for each microwatershed.
+
+Details of methodology can be found in the technical manual and the codebase on [github](https://github.com/core-stack-org/core-stack-backend/blob/main/computing/mws/well_depth.py)."
 cropping_intensity_vector,"Cropping intensity map for India. Cropping intensity is computed on the IndiaSAT Land Use Land Cover outputs by taking the weighted average of the area under single cropping, double cropping, and tripple/annual/perennial cropping. The vector map is available from 2017 onwards.Details of methodology can be found in the technical manual and the codebase on [github](https://github.com/core-stack-org/core-stack-backend/tree/main/computing/cropping_intensity)."
 wri_restoration_raster,"Landscape restoration opportunities map built by World Resources Institute (WRI) identifies the potential for protection, wide-scale restoration, and mosaic restoration in India. 
 Following classes are available in the raster map:
@@ -189,3 +193,4 @@ terrain_vector,"Terrain clusters map for India. Classes in the terrain raster ma
 4. Broad plains and slopes
 
 Precomputed cluster centroids are used to assign terrain clusters to new microwatersheds. Details of methodology can be found in the technical manual and the codebase on [github](https://github.com/core-stack-org/core-stack-backend/tree/main/computing/terrain_descriptor)."
+slope_percentage_raster,Map of per pixel slope computed from digital elevation data (SRTM DEM).
