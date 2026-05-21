@@ -44,3 +44,7 @@ Slope Percentage,raster,slope_percentage_raster,,slope_percentage_raster,Slope P
 Plantation Site Suitability,raster,site_suitability_raster,,site_suitability_raster,Site Suitability,plantation,,,{district}_{block}_site_suitability_raster,https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/main/Land/site_suitability.qml,agrohorticulture
 MWS Connectivity,vector,mws_connectivity_vector,,mws_connectivity_vector,Mws Connectivity,mws_connectivity,,,{district}_{block}_mws_connectivity,https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/refs/heads/main/Hydrology/Mws_connectivity_style.qml,hydrology
 Stream Order,vector,stream_order_vector,,stream_order_vector,Stream Order,stream_order,,,stream_order_{district}_{block}_vector,,
+Facilities Proximity,vector,facilities_proximity_vector,,facilities_proximity,Facilities Proximity,facilities_proximity,,,facilities_{district}_{block},,
+Green Credit,vector,green_credits_vector,,green_credit,Green Credit,green_credit,,,{district}_{block}_green_credit,,
+Industry locations,vector,factory_csr_vector,,factory_csr,Factory CSR,factory_csr,,,{district}_{block}_factory_csr,,
+Agroecological service organizations,vector,agroecological_vector,,agroecological,Agroecological,agroecological,,,{district}_{block}_agroecological,,
