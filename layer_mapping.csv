@@ -24,18 +24,18 @@ Drought frequency,vector,drought_frequency_vector,,drought_2017_2022,Drought,cro
 Annual water balance,vector,change_in_well_depth_vector,,well_depth_net_value,Hydrology,mws_layers,,,deltaG_well_depth_{district}_{block},https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/refs/heads/main/Climate/MWS-Well-Depth-20_25.qml,"hydrology, water balance, annual"
 Terrain,raster,terrain_raster,30,terrain_raster,Terrain Raster,terrain,,,{district}_{block}_terrain_raster,https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/main/Land/terrain_1-12class.qml,terrain
 CLART,raster,clart_raster,30,clart,CLART,clart,,,{district}_{block}_clart,https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/main/Hydrology/CLART-Layer-Style.qml,"water structure planning, clart"
-Tree canopy cover density,raster,tree_canopy_cover_density_raster,25,tree_health_ccd,,ccd,,,tree_health_ccd_raster_{district}_{block}_{start_year},https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/main/Tree%20Health/ccd_style.qml,"tree cover, canopy density"
-Tree cover change,raster,tree_cover_change_raster,25,tree_health_overall,Tree Overall Change Raster,tree_overall_ch,,,overall_change_raster_{district}_{block},https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/main/Tree%20Health/tree_cover_change.qml,"tree cover, change"
-Tree canopy height,raster,tree_canopy_height_raster,25,tree_health_ch,,canopy_height,,,tree_health_ch_raster_{district}_{block}_{start_year},https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/main/Tree%20Health/tree_cover_change.qml,"tree cover, tree height"
+Tree canopy cover density,raster,tree_canopy_cover_density_raster,25,tree_health_ccd,Ccd Raster,tree_ccd_raster,,,ccd_raster_{district}_{block}_{start_year},https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/main/Tree%20Health/ccd_style.qml,"tree cover, canopy density"
+Tree cover change,raster,tree_cover_change_raster,25,tree_health_overall,Tree Overall Change Raster,tree_overall_raster,,,overall_change_raster_{district}_{block},https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/main/Tree%20Health/tree_cover_change.qml,"tree cover, change"
+Tree canopy height,raster,tree_canopy_height_raster,25,tree_health_ch,Canopy Height Raster,tree_ch_raster,,,ch_raster_{district}_{block}_{start_year},https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/main/Tree%20Health/tree_cover_change.qml,"tree cover, tree height"
 Landscape restoration opportunities,raster,wri_restoration_raster,,restoration,Restoration Raster,restoration,,,restoration_{district}_{block}_raster,https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/main/Restoration/Restoration_style.qml,restoration
 Water Balance,vector,water_balance_fortnightly_vector,,filtered_delta_g_fortnight_uid,Hydrology,mws_layers,,,deltaG_fortnight_{district}_{block},https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/refs/heads/main/Hydrology/water_balance_fortnightly.qml,"hydrology, water balance, fortnightly"
 WRI Restoration,vector,,,restoration_vector,Restoration Vector,restoration,,,restoration_{district}_{block}_vector,,restoration
-Tree cover change,vector,tree_cover_change_vector,,tree_health_overall,Tree Overall Change Vector,tree_overall_ch,,,overall_change_vector_{district}_{block},,"tree cover, change"
+Tree cover change,vector,tree_cover_change_vector,,tree_health_overall,Tree Overall Change Vector,tree_overall_vector,,,overall_change_vector_{district}_{block},,"tree cover, change"
 Land Use Land Cover,vector,land_use_land_cover_vector,,lulc_vector,LULC,lulc_vector,,,lulc_vector_{district}_{block},https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/refs/heads/main/Agriculture/Lulc_vector.qml,land use land cover
 ,vector,,,crop_grid,Crop GridXlulc,crop_grid_layers,,,{district}_{block}_grid,,
 ,vector,,,lulcXplains_clusters,Terrain LULC,terrain_lulc,,,{district}_{block}_lulc_plain,,
 ,vector,,,lulcXslopes_clusters,,terrain_lulc,,,{district}_{block}_lulc_slope,,
-Drought Causality,vector,drought_causality,,drought_causality,Drought Causality,drought_causality,,,{district}_{block}_drought_causality,,
+Drought Causality,vector,drought_causality_vector,,drought_causality,Drought Causality,drought_causality,,,{district}_{block}_drought_causality,,
 Catchment Area,raster,catchment_area_singleflow_raster,30,catchment_area_raster,Catchment Area,catchment_area_singleflow,,,catchment_area_{district}_{block}_raster,https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/refs/heads/main/Catchment/catchment_area_singleflow.qml,"hydrology, catchment"
 Natural Depressions,raster,natural_depressions_raster,30,natural_depression_raster,Natural Depression,natural_depression,,,natural_depression_{district}_{block}_raster,https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/refs/heads/main/Catchment/natural_depression.qml,"terrain, natural depressions"
 Distance to Upstream Drainage Line,raster,distance_to_upstream_drainage_line_raster,30,distance_to_drainage_line_raster,Distance to Drainage Line,distance_nearest_upstream_DL,,,distance_to_drainage_line_{district}_{block}_raster,https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/refs/heads/main/Hydrology/Distance_to_upstreamDL_style.qml,"hydrology, distance to drainage lines"
@@ -54,15 +54,15 @@ Drainage Density,vector,drainage_density_vector,,drainage_density_vector,Drainag
 River,vector,river_vector,,river_vector,River Vector,river ,,,{district}_{block}_river_vector,,
 Canal,vector,canal_vector,,canal_vector,Canal Vector,canal,,,{district}_{block}_canal_vector,,
 Soil Health,vector,soil_health_vector,,soil_health_vector,Soil Health Vector,soil_health_vector,,,{district}_{block}_soil_health_vector,,
-Soil Type ,vector,soil_type,,soil_type,Soil Type,soil_type,,,soil_type_{district}_{block},,
-Forest Fringe,vector,forest_fringe,,forest_fringe,Forest Fringe,forest_fringes,,,forest_fringe_{district}_{block},,
-Tree in grassland,vector,tree_in_grassland,,tree_in_grassland,Tree in Grassland,tree_in_grassland,,,{district}_{block}_tree_in_grassland,,
-Forest Fire,vector,forest_fire,,forest_fire,Forest Fire,forest_fire,,,{district}_{block}_forest_fire,,
-Livestock Census,vector,livestocks,,livestocks,Livestock Census,livestocks,,,livestocks_{district}_{block},,
-Waterbody Zone of Influence (ZOI),vector,swb_waterbodies_ZoI,,swb_waterbodies_ZoI,Surface Water Bodies,swb,,,waterbodies_zoi_{district}_{block},,
-NDVI Crop,vector,ndvi_timeseries_crop,,ndvi_timeseries_crop,NDVI Timeseries,ndvi_timeseries,,,ndvi_timeseries_{district}_{block}_crop,,
-NDVI Shrub,vector,ndvi_timeseries_shrub,,ndvi_timeseries_shrub,NDVI Timeseries,ndvi_timeseries,,,ndvi_timeseries_{district}_{block}_shrub,,
-NDVI Tree,vector,ndvi_timeseries_tree,,ndvi_timeseries_tree,NDVI Timeseries,ndvi_timeseries,,,ndvi_timeseries_{district}_{block}_tree,,
+Soil Type ,vector,soil_type_vector,,soil_type,Soil Type,soil_type,,,soil_type_{district}_{block},,
+Forest Fringe,vector,forest_fringe_vector,,forest_fringe,Forest Fringe,forest_fringes,,,{district}_{block}_forest_fringe,,
+Tree in grassland,vector,tree_in_grassland_vector,,tree_in_grassland,Tree in Grassland,tree_in_grassland,,,{district}_{block}_tree_in_grassland,,
+Forest Fire,vector,forest_fire_vector,,forest_fire,Forest Fire,forest_fire,,,{district}_{block}_forest_fire,,
+Livestock Census,vector,livestocks_vector,,livestocks,Livestock Census,livestocks,,,livestocks_{district}_{block},,
+Waterbody Zone of Influence (ZOI),vector,swb_waterbodies_ZoI_vector,,swb_waterbodies_ZoI,Surface Water Bodies,swb,,,waterbodies_zoi_{district}_{block},,
+NDVI Crop,vector,ndvi_timeseries_crop_vector,,ndvi_timeseries_crop,NDVI Timeseries,ndvi_timeseries,,,ndvi_timeseries_{district}_{block}_crop,,
+NDVI Shrub,vector,ndvi_timeseries_shrub_vector,,ndvi_timeseries_shrub,NDVI Timeseries,ndvi_timeseries,,,ndvi_timeseries_{district}_{block}_shrub,,
+NDVI Tree,vector,ndvi_timeseries_tree_vector,,ndvi_timeseries_tree,NDVI Timeseries,ndvi_timeseries,,,ndvi_timeseries_{district}_{block}_tree,,
 Soil Health Raster Potassium,raster,soil_health_raster_K,30,soil_health_raster,Soil Health Raster,soil_health_raster,,,{district}_{block}_soil_health_raster_K,https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/refs/heads/main/Soil/Soil_Health_Raster_K.qml,
 Soil Health Raster Nitrogen,raster,soil_health_raster_N,30,soil_health_raster,Soil Health Raster,soil_health_raster,,,{district}_{block}_soil_health_raster_N,https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/refs/heads/main/Soil/Soil_Health_Raster_N.qml,
 Soil Health Raster Organic Carbon,raster,soil_health_raster_OC,30,soil_health_raster,Soil Health Raster,soil_health_raster,,,{district}_{block}_soil_health_raster_OC,https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/refs/heads/main/Soil/Soil_Health_Raster_OC.qml,
@@ -71,3 +71,5 @@ Soil Health Raster Phosphorus,raster,soil_health_raster_P,30,soil_health_raster,
 Land Use Change: ShrubChange,raster,change_raster_ShrubChange,,change_raster_ShrubChange,Change Detection Raster,change_detection,,,change_{district}_{block}_ShrubChange,https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/refs/heads/main/Land/Shrub_Change_Raster.qml,
 Land Use Change: ShrubChange,vector,change_vector_ShrubChange,,change_vector_ShrubChange,Change Detection Vector,change_detection,,,change_vector_{district}_{block}_ShrubChange,,
 Mission Antyodaya,vector,antyodaya_2020_vector,,antyodaya_2020_vector,Antyodaya 2020,antyodaya_2020,,,antyodaya20_{district}_{block},,
+Tree canopy cover density,vector,ccd_vector_2017_2023,,ccd_vector_2017_2023,Ccd Vector,tree_ccd_vector,,,ccd_vector_{district}_{block}_2017_2023,,
+Tree canopy height,vector,ch_vector_2017_2023,,ch_vector_2017_2023,Canopy Height Vector,canopy_height_vector,,,ch_vector_{district}_{block}_2017_2023,,
