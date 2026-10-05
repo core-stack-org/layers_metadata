@@ -80,23 +80,25 @@ Cropping intensity change layer includes the following transitions:
 8.Double → Double
 9.Tripple/annual/perennial → Tripple/annual/perennial
 "
-tree_canopy_cover_density_raster,"Tree canopy cover density (CCD) indicates the density of tree cover in a given area, with higher canopy cover percentages signifying a denser canopy and more shade on the ground and vice versa. The Pan India map (except ACZ 12-15 currently missing due to insufficient data points for training the respective models)  is available from 2017 onwards at 25m resolution.
+tree_canopy_cover_density_raster,"Tree canopy cover density (CCD) indicates the density of tree cover in a given area, with higher canopy cover percentages signifying a denser canopy and more shade on the ground and vice versa. The Pan India map (except ACZ 12-15 currently missing due to insufficient data points for training the respective models) is available from 2017 onwards at 25m resolution.
 
-These are the classes in the current version of the map: 
-1.Class 0: Low density 
-2.Class 1: High density
-3.Class 2: Missing data 
-Input to the model is Dynamic World output, and timeseries data from Sentinel-2, Sentinel-1 and GEDI as ground truth. Details of methodology can be found  in the [technical manual](https://drive.google.com/file/d/1ZxovdpPThkN09cB1TcUYSE2BImI7M3k_/view?pli=1) and the codebase at https://github.com/Dhruvi-Goyal/Tree-Health-Monitoring/"
-tree_canopy_height_raster,"Tree canopy height layer describes how tall are trees in a given pixel. It captures the structural height of vegetation and provides a direct measure of forest maturity and vertical growth. Taller canopies generally indicate more developed or less disturbed forest stands, while shorter canopies may reflect regenerating vegetation, degradation, or recent disturbance. The Pan India map (except ACZ 12-15)  is available from 2017 onwards at 25m resolution.
+These are the classes in the current version of the map:
 
-These are the classes in the current version of the map: 
+1. Class 0: Low density
+2. Class 1: High density
+3. Class 2: Missing data
 
-1.Class 0: Short 
-2.Class 1: Medium
-3.Class 2: Tall
-4.Class 3: Missing data
-Details of methodology can be found  in the [technical manual](https://drive.google.com/file/d/1ZxovdpPThkN09cB1TcUYSE2BImI7M3k_/view?pli=1) and the codebase at https://github.com/Dhruvi-Goyal/Tree-Health-Monitoring/
-"
+Input to the model is Dynamic World output, and timeseries data from Sentinel-2, Sentinel-1 and GEDI as ground truth. Details of methodology can be found in the [technical manual](https://drive.google.com/file/d/1ZxovdpPThkN09cB1TcUYSE2BImI7M3k_/view?pli=1) and the codebase at <https://github.com/Dhruvi-Goyal/Tree-Health-Monitoring/>"
+tree_canopy_height_raster,"Tree canopy height layer describes how tall are trees in a given pixel. It captures the structural height of vegetation and provides a direct measure of forest maturity and vertical growth. Taller canopies generally indicate more developed or less disturbed forest stands, while shorter canopies may reflect regenerating vegetation, degradation, or recent disturbance. The Pan India map (except ACZ 12-15) is available from 2017 onwards at 25m resolution.
+
+These are the classes in the current version of the map:
+
+1. Class 0: Short
+2. Class 1: Medium
+3. Class 2: Tall
+4. Class 3: Missing data
+
+Details of methodology can be found in the [technical manual](https://drive.google.com/file/d/1ZxovdpPThkN09cB1TcUYSE2BImI7M3k_/view?pli=1) and the codebase at <https://github.com/Dhruvi-Goyal/Tree-Health-Monitoring/>"
 drainage_lines_vector,Drainage lines map for India. Drainage lines in hydrology refer to the visible channels through which water flows from higher elevations to lower elevations on the surface of earth such as streams and rivers. The Pan India map of drainage lines has been generated using SRTM DEM V4 data on QGIS (r.stream.extract). The drainage lines are labeled by their Strahler order. Details of methodology can be found in the technical manual. Details of methodology can be found in the technical manual and the codebase on [github](https://github.com/core-stack-org/core-stack-backend/blob/main/computing/misc/drainage_lines.py).
 stream_order_raster,"Stream order raster map for India. While drainage lines are essential to plan assets such as check dams located on the drainage lines, it is also important to identify areas outside of the drainage lines that are under the influence of drainage lines. We use digital elevation model (DEM) data that provides pixel level information on the elevation and drainage lines (with stream orders) as inputs to compute stream order rasters. Areas with higher stream orders are those downstream of areas with lower stream orders, and can help identify cropping regions like low-land, mid-land, and up-land. Details of methodology can be found in the technical manual and the codebase on [github](https://github.com/core-stack-org/core-stack-backend/blob/main/computing/misc/)."
 distance_to_upstream_drainage_line_raster,"Distance to upstream drainage line map for India. Spatial indexing technique (e.g. k-d tree) is applied on pixel level digital elevation data (SRTM DEM) to compute the distance of each non-drainage pixel to its nearest upstream drainage line. 
@@ -215,114 +217,120 @@ Each feature represents a land parcel available for afforestation or ecosystem r
 "
 factory_csr_vector,"The dataset is derived from the Annual Survey of Industries (ASI) 2018 data frame by the Ministry of Statistics and Programme Implementation (MOSPI), Government of India. It contains information on registered industrial units across Indian districts, including details like state, district, industry code (NIC 2008), total persons engaged, and factory name. Geographic coordinates were obtained by geocoding the address. Suitable for spatial analysis of industrial presence, workforce distribution, proximity-based assessments, and binary filtering of villages or planning units by factory presence."
 agroecological_vector,"Dataset created by the Consortium of Agroecological Transformation (CAT) of organisations actively engaged in agroecological practices, representing civil society organisations, non-profits, and grassroots groups working across rural blocks and districts. Contains information about the organisation's operational location and includes attributes such as organisation name, type, the agroecological domains they work in (e.g. cultivation practices, soil conservation, livestock management, seed management, watershed management), contact details, and the date of registration. Suitable for mapping civil society presence, identifying agroecological practice coverage, and supporting planning of landscape restoration initiatives."
-soil_health_raster_K,"This layer contains high-resolution (30m) raster maps of predicted soil nutrients and organic carbon across India. Separate raster layers are generated for nitrogen (N), phosphorus (P), potassium (K), and organic carbon (OC) using machine learning and satellite remote sensing, trained on data aggregated by the governments from soil health card tests for the 2023–24 agricultural period. An additional organic carbon layer from the OpenLandMap (OLM) baseline is provided for comparison. Soil health is a foundational indicator for agricultural resilience, land degradation assessment, and precision farming interventions. 
-The raster layers are clipped to the selected microwatershed area to retain the relevant spatial extent. 
- -N, P and K: Reported in kg/ha and masked on crop pixels of IndiSAT LULC.
- -OC and OC_OLM: Reported in percent (%) and masked on tree and shrub pixels of IndiSAT LULC.
- -Each pixel represents the predicted soil property value for that location.
- -OC_OLM: Represents the OpenLandMap organic carbon baseline used for comparison with the custom Random Forest predictions. It is not an estimate specifically for tree- and shrub-covered areas.
-"
-soil_health_raster_N,"This layer contains high-resolution (30m) raster maps of predicted soil nutrients and organic carbon across India. Separate raster layers are generated for nitrogen (N), phosphorus (P), potassium (K), and organic carbon (OC) using machine learning and satellite remote sensing, trained on data aggregated by the governments from soil health card tests for the 2023–24 agricultural period. An additional organic carbon layer from the OpenLandMap (OLM) baseline is provided for comparison. Soil health is a foundational indicator for agricultural resilience, land degradation assessment, and precision farming interventions. 
-The raster layers are clipped to the selected microwatershed area to retain the relevant spatial extent. 
- -N, P and K: Reported in kg/ha and masked on crop pixels of IndiSAT LULC.
- -OC and OC_OLM: Reported in percent (%) and masked on tree and shrub pixels of IndiSAT LULC.
- -Each pixel represents the predicted soil property value for that location.
- -OC_OLM: Represents the OpenLandMap organic carbon baseline used for comparison with the custom Random Forest predictions. It is not an estimate specifically for tree- and shrub-covered areas.
-"
-soil_health_raster_OC,"This layer contains high-resolution (30m) raster maps of predicted soil nutrients and organic carbon across India. Separate raster layers are generated for nitrogen (N), phosphorus (P), potassium (K), and organic carbon (OC) using machine learning and satellite remote sensing, trained on data aggregated by the governments from soil health card tests for the 2023–24 agricultural period. An additional organic carbon layer from the OpenLandMap (OLM) baseline is provided for comparison. Soil health is a foundational indicator for agricultural resilience, land degradation assessment, and precision farming interventions. 
-The raster layers are clipped to the selected microwatershed area to retain the relevant spatial extent. 
- -N, P and K: Reported in kg/ha and masked on crop pixels of IndiSAT LULC.
- -OC and OC_OLM: Reported in percent (%) and masked on tree and shrub pixels of IndiSAT LULC.
- -Each pixel represents the predicted soil property value for that location.
- -OC_OLM: Represents the OpenLandMap organic carbon baseline used for comparison with the custom Random Forest predictions. It is not an estimate specifically for tree- and shrub-covered areas.
-"
-soil_health_raster_OC_OLM,"This layer contains high-resolution (30m) raster maps of predicted soil nutrients and organic carbon across India. Separate raster layers are generated for nitrogen (N), phosphorus (P), potassium (K), and organic carbon (OC) using machine learning and satellite remote sensing, trained on data aggregated by the governments from soil health card tests for the 2023–24 agricultural period. An additional organic carbon layer from the OpenLandMap (OLM) baseline is provided for comparison. Soil health is a foundational indicator for agricultural resilience, land degradation assessment, and precision farming interventions. 
-The raster layers are clipped to the selected microwatershed area to retain the relevant spatial extent. 
- -N, P and K: Reported in kg/ha and masked on crop pixels of IndiSAT LULC.
- -OC and OC_OLM: Reported in percent (%) and masked on tree and shrub pixels of IndiSAT LULC.
- -Each pixel represents the predicted soil property value for that location.
- -OC_OLM: Represents the OpenLandMap organic carbon baseline used for comparison with the custom Random Forest predictions. It is not an estimate specifically for tree- and shrub-covered areas.
-"
-soil_health_raster_P,"This layer contains high-resolution (30m) raster maps of predicted soil nutrients and organic carbon across India. Separate raster layers are generated for nitrogen (N), phosphorus (P), potassium (K), and organic carbon (OC) using machine learning and satellite remote sensing, trained on data aggregated by the governments from soil health card tests for the 2023–24 agricultural period. An additional organic carbon layer from the OpenLandMap (OLM) baseline is provided for comparison. Soil health is a foundational indicator for agricultural resilience, land degradation assessment, and precision farming interventions. 
-The raster layers are clipped to the selected microwatershed area to retain the relevant spatial extent. 
- -N, P and K: Reported in kg/ha and masked on crop pixels of IndiSAT LULC.
- -OC and OC_OLM: Reported in percent (%) and masked on tree and shrub pixels of IndiSAT LULC.
- -Each pixel represents the predicted soil property value for that location.
- -OC_OLM: Represents the OpenLandMap organic carbon baseline used for comparison with the custom Random Forest predictions. It is not an estimate specifically for tree- and shrub-covered areas.
-"
+soil_health_raster_K,"This layer contains high-resolution (30m) raster maps of predicted soil nutrients and organic carbon across India. Separate raster layers are generated for nitrogen (N), phosphorus (P), potassium (K), and organic carbon (OC) using machine learning and satellite remote sensing, trained on data aggregated by the governments from soil health card tests for the 2023–24 agricultural period. An additional organic carbon layer from the OpenLandMap (OLM) baseline is provided for comparison. Soil health is a foundational indicator for agricultural resilience, land degradation assessment, and precision farming interventions.
+
+The raster layers are clipped to the selected microwatershed area to retain the relevant spatial extent.
+
+- N, P and K: Reported in kg/ha and masked on crop pixels of IndiSAT LULC.
+- OC and OC_OLM: Reported in percent (%) and masked on tree and shrub pixels of IndiSAT LULC.
+- Each pixel represents the predicted soil property value for that location.
+- OC_OLM: Represents the OpenLandMap organic carbon baseline used for comparison with the custom Random Forest predictions. It is not an estimate specifically for tree- and shrub-covered areas."
+soil_health_raster_N,"This layer contains high-resolution (30m) raster maps of predicted soil nutrients and organic carbon across India. Separate raster layers are generated for nitrogen (N), phosphorus (P), potassium (K), and organic carbon (OC) using machine learning and satellite remote sensing, trained on data aggregated by the governments from soil health card tests for the 2023–24 agricultural period. An additional organic carbon layer from the OpenLandMap (OLM) baseline is provided for comparison. Soil health is a foundational indicator for agricultural resilience, land degradation assessment, and precision farming interventions.
+
+The raster layers are clipped to the selected microwatershed area to retain the relevant spatial extent.
+
+- N, P and K: Reported in kg/ha and masked on crop pixels of IndiSAT LULC.
+- OC and OC_OLM: Reported in percent (%) and masked on tree and shrub pixels of IndiSAT LULC.
+- Each pixel represents the predicted soil property value for that location.
+- OC_OLM: Represents the OpenLandMap organic carbon baseline used for comparison with the custom Random Forest predictions. It is not an estimate specifically for tree- and shrub-covered areas."
+soil_health_raster_OC,"This layer contains high-resolution (30m) raster maps of predicted soil nutrients and organic carbon across India. Separate raster layers are generated for nitrogen (N), phosphorus (P), potassium (K), and organic carbon (OC) using machine learning and satellite remote sensing, trained on data aggregated by the governments from soil health card tests for the 2023–24 agricultural period. An additional organic carbon layer from the OpenLandMap (OLM) baseline is provided for comparison. Soil health is a foundational indicator for agricultural resilience, land degradation assessment, and precision farming interventions.
+
+The raster layers are clipped to the selected microwatershed area to retain the relevant spatial extent.
+
+- N, P and K: Reported in kg/ha and masked on crop pixels of IndiSAT LULC.
+- OC and OC_OLM: Reported in percent (%) and masked on tree and shrub pixels of IndiSAT LULC.
+- Each pixel represents the predicted soil property value for that location.
+- OC_OLM: Represents the OpenLandMap organic carbon baseline used for comparison with the custom Random Forest predictions. It is not an estimate specifically for tree- and shrub-covered areas."
+soil_health_raster_OC_OLM,"This layer contains high-resolution (30m) raster maps of predicted soil nutrients and organic carbon across India. Separate raster layers are generated for nitrogen (N), phosphorus (P), potassium (K), and organic carbon (OC) using machine learning and satellite remote sensing, trained on data aggregated by the governments from soil health card tests for the 2023–24 agricultural period. An additional organic carbon layer from the OpenLandMap (OLM) baseline is provided for comparison. Soil health is a foundational indicator for agricultural resilience, land degradation assessment, and precision farming interventions.
+
+The raster layers are clipped to the selected microwatershed area to retain the relevant spatial extent.
+
+- N, P and K: Reported in kg/ha and masked on crop pixels of IndiSAT LULC.
+- OC and OC_OLM: Reported in percent (%) and masked on tree and shrub pixels of IndiSAT LULC.
+- Each pixel represents the predicted soil property value for that location.
+- OC_OLM: Represents the OpenLandMap organic carbon baseline used for comparison with the custom Random Forest predictions. It is not an estimate specifically for tree- and shrub-covered areas."
+soil_health_raster_P,"This layer contains high-resolution (30m) raster maps of predicted soil nutrients and organic carbon across India. Separate raster layers are generated for nitrogen (N), phosphorus (P), potassium (K), and organic carbon (OC) using machine learning and satellite remote sensing, trained on data aggregated by the governments from soil health card tests for the 2023–24 agricultural period. An additional organic carbon layer from the OpenLandMap (OLM) baseline is provided for comparison. Soil health is a foundational indicator for agricultural resilience, land degradation assessment, and precision farming interventions.
+
+The raster layers are clipped to the selected microwatershed area to retain the relevant spatial extent.
+
+- N, P and K: Reported in kg/ha and masked on crop pixels of IndiSAT LULC.
+- OC and OC_OLM: Reported in percent (%) and masked on tree and shrub pixels of IndiSAT LULC.
+- Each pixel represents the predicted soil property value for that location.
+- OC_OLM: Represents the OpenLandMap organic carbon baseline used for comparison with the custom Random Forest predictions. It is not an estimate specifically for tree- and shrub-covered areas."
 change_raster_ShrubChange,"This layer represents changes in agricultural land-use intensity over the selected analysis period. It is derived by comparing the first and last three-year land-use composites and identifying shifts among crop-related classes and agricultural states. It helps monitor changes in cultivation patterns, land productivity, and agricultural transformation.
 
 Following are the classes in this layer:
-1.Shrub → Shrub
-2.Shrub →  Farm
-3.Shrub → Tree
-4.Shrub →  Built-up
-5.Shrub → Water
-6.Shrub → Barren
-"
+
+1. Shrub → Shrub
+2. Shrub → Farm
+3. Shrub → Tree
+4. Shrub → Built-up
+5. Shrub → Water
+6. Shrub → Barren"
 change_vector_ShrubChange,"This vector layer summarizes changes in shrub and scrub-dominated areas within the selected MWS boundary over the analysis period. It is derived from IndiaSAT Land Use and Land Cover composites by comparing the first and last three-year composites and aggregating the detected transitions to the MWS boundary. The output captures changes from shrubland into tree cover, agriculture, built-up land, water, and barren land, as well as persistence of shrub cover, indicating vegetation dynamics in non-forest and transitional landscapes."
 soil_health_vector,"This layer contains one feature for each microwatershed. The clipped soil health rasters are used to calculate statistics for each microwatershed, summarising the spatial distribution of predicted soil nutrients and organic carbon within the selected microwatershed.
+
 The vector layer includes the mean and percentile statistics for nitrogen, phosphorus, potassium, and organic carbon, along with the corresponding valid pixel counts. Where applicable, the OpenLandMap organic carbon baseline can also be included for comparison.
--N, P and K statistics: Reported in kg/ha.
--OC and OC_OLM statistics: Reported in percent (%).
--Mean: Average predicted soil property value across valid raster pixels within the microwatershed.
--Percentiles: 5th, 10th, 20th, 30th, 40th, 50th, 60th, 70th, 80th, 90th and 95th, where available in the output.
--Pixel count: Number of valid raster pixels used to calculate the statistics for each soil property.
-"
-soil_type,"The Soil Type / Soil Variables layer provides essential spatial datasets on the physical, chemical, and hydrological properties of soil across India. These datasets draw from the global dataset of the Harmonized World Soil Database (HWSD v1.2).
+
+- N, P and K statistics: Reported in kg/ha.
+- OC and OC_OLM statistics: Reported in percent (%).
+- Mean: Average predicted soil property value across valid raster pixels within the microwatershed.
+- Percentiles: 5th, 10th, 20th, 30th, 40th, 50th, 60th, 70th, 80th, 90th and 95th, where available in the output.
+- Pixel count: Number of valid raster pixels used to calculate the statistics for each soil property."
+soil_type_vector,"The Soil Type / Soil Variables layer provides essential spatial datasets on the physical, chemical, and hydrological properties of soil across India. These datasets draw from the global dataset of the Harmonized World Soil Database (HWSD v1.2).
 
 Key Components & Sub-Layers
 
--Soil Texture & Depth Profiles: Topsoil (0–30 cm) and subsoil (30–100 cm) texture classes based on sand, silt, and clay proportions using USDA classifications.
--Chemical & Physical Health: Measures topsoil and subsoil pH (acidity/alkalinity), Organic Carbon (OC), Bulk Density (compaction), and Cation Exchange Capacity (CEC) to determine nutrient storage and soil health.
--Hydrologic Soil Groups (HSGs): Categorizes soils into Groups A, B, C, and D based on infiltration rates and runoff potential.
--Drainage & Water Capacity: Details Soil Drainage Classes (ranging from excessively to very poorly drained) and Available Water Capacity (AWC) in mm/m for plant water uptake
-
-"
-forest_fringe,This layer quantifies forest-edge degradation by measuring how much deforestation and degradation occurred in a 50 m fringe around stable forest patches inside each micro-watershed. Monitoring changes in forest fringes is critical for understanding its implications for ecosystem health and livestock-dependent livelihoods.
-tree_in_grassland,"Unlike dense forest systems, tree degradation in grasslands is more subtle and spatially fragmented, making it difficult to detect using conventional approaches.
+- Soil Texture & Depth Profiles: Topsoil (0–30 cm) and subsoil (30–100 cm) texture classes based on sand, silt, and clay proportions using USDA classifications.
+- Chemical & Physical Health: Measures topsoil and subsoil pH (acidity/alkalinity), Organic Carbon (OC), Bulk Density (compaction), and Cation Exchange Capacity (CEC) to determine nutrient storage and soil health.
+- Hydrologic Soil Groups (HSGs): Categorizes soils into Groups A, B, C, and D based on infiltration rates and runoff potential.
+- Drainage & Water Capacity: Details Soil Drainage Classes (ranging from excessively to very poorly drained) and Available Water Capacity (AWC) in mm/m for plant water uptake."
+forest_fringe_vector,This layer quantifies forest-edge degradation by measuring how much deforestation and degradation occurred in a 50 m fringe around stable forest patches inside each micro-watershed. Monitoring changes in forest fringes is critical for understanding its implications for ecosystem health and livestock-dependent livelihoods.
+tree_in_grassland_vector,"Unlike dense forest systems, tree degradation in grasslands is more subtle and spatially fragmented, making it difficult to detect using conventional approaches.
 
 To address this, we introduce a contextual and transition-based framework to monitor tree degradation within grassland ecosystems. By combining temporally smoothed Land Use Land Cover (LULC) data with neighbourhood-based classification, we identify trees within grassland contexts and track their transitions over time. This enables the detection of tree degradation such as conversion to barren land, cropland, or built-up areas."
-forest_fire,"Detection and monitoring of forest fires is critical for understanding ecosystem disturbances, carbon emissions, and risks to forest-dependent livelihoods. To characterize the spatial and temporal variability of fire activity, the analysis uses satellite-derived Fire Radiative Power (FRP) and fire-day observations. Fire intensity and fire frequency are summarized at the microwatershed level using annualized and multi-year fire indicators."
-livestocks,"Livestock are a central part of the rural economy -- a store of savings, insurance against crop failure, a daily income through milk, and a livelihood base for landless and marginal households. The Livestock Census, conducted periodically by the Department of Animal Husbandry and Dairying together with the State Governments and Union Territories, is the principal source of livestock data in the country. This layer publishes village-level headcounts from the 20th Livestock Census (reference year 2019) for the five major species groups -- cattle, buffalo, sheep, goat, and pig. It complements the land, water, and facilities layers, since grazing pressure bears on commons and watershed health, livestock water demand matters for water budgeting, and dairy and meat production potential depends on the local livestock mix."
-swb_waterbodies_ZoI,"This layer shows the area surrounding each waterbody that may be influenced by it for soil moisture enrichment. The ZOI is represented as a circular buffer around the waterbody’s centre, with its size estimated from the waterbody’s area. Each feature includes the waterbody ID, ZOI radius, and estimated ZOI area."
-ndvi_timeseries_crop,"NDVI (Normalized Difference Vegetation Index) is computed over cropped areas in the microwatersheds at 14-day intervals using satellite data, and reflects the vigour of vegetation/crop growth over time."
-ndvi_timeseries_shrub,NDVI (Normalized Difference Vegetation Index) is computed over shrub areas in the microwatersheds at 14-day intervals using satellite data. It reflects changes in shrub vegetation vigour over time.
-ndvi_timeseries_tree,"NDVI (Normalized Difference Vegetation Index) is computed over tree-covered areas in the microwatershed at 14-day intervals using satellite data, and reflects the vigour of tree/forest growth over time."
-Mission Antyodaya,"These metrics are derived from the Government of India-led Mission Antyodaya Survey, carried out across India between 2018-2020, collecting village-level data on a wide range of indicators related to areas like health, education, infrastructure, economic activity, etc."
-overall_change_raster,"The tree cover change layer describes the change in canopy cover density (CCD) and canopy height (CH) across different years. The Pan India map (except ACZ 12-15 currently missing due to insufficient data points for training the respective models)  is available from 2017 onwards at 25m resolution.
+forest_fire_vector,"Detection and monitoring of forest fires is critical for understanding ecosystem disturbances, carbon emissions, and risks to forest-dependent livelihoods. To characterize the spatial and temporal variability of fire activity, the analysis uses satellite-derived Fire Radiative Power (FRP) and fire-day observations. Fire intensity and fire frequency are summarized at the microwatershed level using annualized and multi-year fire indicators."
+livestocks_vector,"Livestock are a central part of the rural economy -- a store of savings, insurance against crop failure, a daily income through milk, and a livelihood base for landless and marginal households. The Livestock Census, conducted periodically by the Department of Animal Husbandry and Dairying together with the State Governments and Union Territories, is the principal source of livestock data in the country. This layer publishes village-level headcounts from the 20th Livestock Census (reference year 2019) for the five major species groups -- cattle, buffalo, sheep, goat, and pig. It complements the land, water, and facilities layers, since grazing pressure bears on commons and watershed health, livestock water demand matters for water budgeting, and dairy and meat production potential depends on the local livestock mix."
+swb_waterbodies_ZoI_vector,"This layer shows the area surrounding each waterbody that may be influenced by it for soil moisture enrichment. The ZOI is represented as a circular buffer around the waterbody’s centre, with its size estimated from the waterbody’s area. Each feature includes the waterbody ID, ZOI radius, and estimated ZOI area."
+ndvi_timeseries_crop_vector,"NDVI (Normalized Difference Vegetation Index) is computed over cropped areas in the microwatersheds at 14-day intervals using satellite data, and reflects the vigour of vegetation/crop growth over time."
+ndvi_timeseries_shrub_vector,NDVI (Normalized Difference Vegetation Index) is computed over shrub areas in the microwatersheds at 14-day intervals using satellite data. It reflects changes in shrub vegetation vigour over time.
+ndvi_timeseries_tree_vector,"NDVI (Normalized Difference Vegetation Index) is computed over tree-covered areas in the microwatershed at 14-day intervals using satellite data, and reflects the vigour of tree/forest growth over time."
+antyodaya_2020_vector,"These metrics are derived from the Government of India-led Mission Antyodaya Survey, carried out across India between 2018-2020, collecting village-level data on a wide range of indicators related to areas like health, education, infrastructure, economic activity, etc."
+tree_cover_change_raster,"The tree cover change layer describes the change in canopy cover density (CCD) and canopy height (CH) across different years. The Pan India map (except ACZ 12-15 currently missing due to insufficient data points for training the respective models) is available from 2017 onwards at 25m resolution.
 
-The following classes are available in the current version of the map: 
-1.Class -2: Tree cover lost (tree cover to no tree cover) 
-2.Class -1: Degradation (reduction in CCD/CH)
-3.Class 0: No Change 
-4.Class 1: Improvement (increase in CCD/CH)
-5.Class 2: Tree cover gained (no tree cover to tree cover)
-6.Class 3: Partially Degraded (increase in CCD and reduction in CH)
-7.Class 4: Partially Degraded (increase in CH and reduction in CCD)
-8.Class 5: Missing Data
+The following classes are available in the current version of the map:
 
-Details of methodology can be found in the technical manual and the codebase on [github](https://github.com/Dhruvi-Goyal/Tree-Health-Monitoring/).
-"
+1. Class -2: Tree cover lost (tree cover to no tree cover)
+2. Class -1: Degradation (reduction in CCD/CH)
+3. Class 0: No Change
+4. Class 1: Improvement (increase in CCD/CH)
+5. Class 2: Tree cover gained (no tree cover to tree cover)
+6. Class 3: Partially Degraded (increase in CCD and reduction in CH)
+7. Class 4: Partially Degraded (increase in CH and reduction in CCD)
+8. Class 5: Missing Data
+
+Details of methodology can be found in the technical manual and the codebase on [GitHub](https://github.com/Dhruvi-Goyal/Tree-Health-Monitoring/)."
 ccd_vector_2017_2023,"This vector layer summarizes the area occupied by different canopy density classes within the selected MWS boundary. It is generated by aggregating the pixel-level tree canopy cover density (CCD) raster into area statistics, so each boundary contains the total area under low-density canopy, high-density canopy, and missing-data regions. It is used to quantify how much area within a planning unit falls into each canopy density category."
 ch_vector_2017_2023,"This vector layer summarizes the distribution of canopy height classes within the selected MWS boundary. It is derived by aggregating the tree canopy height raster to area-based statistics, enabling estimation of how much area falls under short, medium, tall, or missing-data canopy height classes. It is useful for understanding the structural maturity of tree cover and the relative dominance of short versus tall vegetation within a planning unit."
-overall_change_vector,"This vector layer summarizes the area affected by tree cover change within the selected MWS boundary. It is generated by aggregating the pixel-level tree cover change raster to the boundary, so each polygon reports how much area has experienced loss, degradation, improvement, gain, or missing-data conditions. This layer is useful for area-based reporting of forest condition changes and helps quantify the extent of canopy decline or recovery within a planning unit."
-drought_causality,"The Drought Causality layer is a yearly vector layer computed at the microwatershed scale. It is designed to identify the specific triggers and ecological/agricultural impacts of drought events, empowering rural communities to select targeted climate adaptation strategies. A year is declared a drought year for a microwatershed when it records more than 5 weeks of moderate or severe drought during the monsoon.
+tree_cover_change_vector,"This vector layer summarizes the area affected by tree cover change within the selected MWS boundary. It is generated by aggregating the pixel-level tree cover change raster to the boundary, so each polygon reports how much area has experienced loss, degradation, improvement, gain, or missing-data conditions. This layer is useful for area-based reporting of forest condition changes and helps quantify the extent of canopy decline or recovery within a planning unit."
+drought_causality_vector,"The Drought Causality layer is a yearly vector layer computed at the microwatershed scale. It is designed to identify the specific triggers and ecological/agricultural impacts of drought events, empowering rural communities to select targeted climate adaptation strategies. A year is declared a drought year for a microwatershed when it records more than 5 weeks of moderate or severe drought during the monsoon.
 
 The layer combines meteorological triggers with impact indicators, all assessed week by week through the monsoon. The triggers are:
--Rainfall deviation from long-period averages,
--Dry spells (4 consecutive weeks, each with a rainfall deficit above 50%),
--The Standardized Precipitation Index (SPI).
+
+- Rainfall deviation from long-period averages,
+- Dry spells (4 consecutive weeks, each with a rainfall deficit above 50%),
+- The Standardized Precipitation Index (SPI).
 
 The impact indicators are:
--The Vegetation Condition Index (VCI), from NDVI and NDWI,
--The Moisture Adequacy Index (MAI), the ratio of Actual Evapotranspiration(AET) to Potential Evapotranspiration(PET),
--The percentage of Kharif crop area sown.
+
+- The Vegetation Condition Index (VCI), from NDVI and NDWI,
+- The Moisture Adequacy Index (MAI), the ratio of Actual Evapotranspiration (AET) to Potential Evapotranspiration (PET),
+- The percentage of Kharif crop area sown.
 
 Each moderate or severe drought week is mapped to its combination of trigger and impact. In declared drought years, these combinations are tallied to find the top three cause-and-impact pairs for each micro-watershed.
 
 The results point to different responses:
--Rainfall-driven droughts suggest rainwater harvesting structures.
--Soil moisture decline suggests changing cropping patterns or adopting drought resistant crops.
--Crop health loss and reduced sown area signal severe agricultural impact, calling for longer-term strategies such as livelihood diversification.
-"
+
+- Rainfall-driven droughts suggest rainwater harvesting structures.
+- Soil moisture decline suggests changing cropping patterns or adopting drought resistant crops.
+- Crop health loss and reduced sown area signal severe agricultural impact, calling for longer-term strategies such as livelihood diversification."
