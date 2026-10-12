@@ -2051,311 +2051,310 @@ start=0, intermediate=1",,NA
 2066,tree_in_grassland_vector,Tree in Grassland,tree_in_tree_in_shrub_to_kharif_water_area_in_ha,tree_in_tree_in_shrub_to_kharif_water_area_in_ha,,area of tree-in-shrub-tree cover that has transitioned to land cropped only during the Kharif season,,ha
 2067,tree_in_grassland_vector,Tree in Grassland,tree_loss_in_tree_in_shrub_area_in_ha,tree_loss_in_tree_in_shrub_area_in_ha,,area where tree cover has been lost within the tree-in-shrub-tree zone,,ha
 2068,tree_in_grassland_vector,Tree in Grassland,uid,uid,,unique identifier for the micro watershed,,NA
-2069,forest_fire_vector,Forest Fire,fire_count_per_year,fire_count_per_year,,Annualized total FRP,,count/year
+2069,forest_fire_vector,Forest Fire,fire_count_per_year,fire_count_per_year,,Number of fire detections per year,,count/year
 2070,forest_fire_vector,Forest Fire,fire_frp_max,fire_frp_max,,Peak fire intensity,,MW
 2071,forest_fire_vector,Forest Fire,fire_frp_mean,fire_frp_mean,,Mean fire intensity,,MW
-2072,forest_fire_vector,Forest Fire,fire_frp_sum_per_year,fire_frp_sum_per_year,,Annualized fire occurrence,,MW/year
-2073,forest_fire_vector,Forest Fire,uid,uid,,unique identifier for the micro watershed,,NA
-2074,Solar Power Tracker,Solar Power Tracker,Date Last Researched,Date Last Researched,,Date that this project was last researched by the researcher,,yyyy/mm/dd
-2075,Solar Power Tracker,Solar Power Tracker,Country/Area,Country/Area,,Country or area the project is located in (Unabbreviated),,n/a
-2076,Solar Power Tracker,Solar Power Tracker,Project Name,Project Name,,Commonly used name,,n/a
-2077,Solar Power Tracker,Solar Power Tracker,Phase Name,Phase Name,,Common name of the project phase,,n/a
-2078,Solar Power Tracker,Solar Power Tracker,Project Name in Local Language / Script,Project Name in Local Language / Script,,Commonly used name in the locally used script,,n/a
-2079,Solar Power Tracker,Solar Power Tracker,Other Name(s),Other Name(s),,"Alternative names, including the name in local script",,n/a
-2080,Solar Power Tracker,Solar Power Tracker,Capacity (MW),Capacity (MW),,"Nameplate capacity, or best available data, of the phase in megawatts rounded to its nearest tenth.",,Megawatt (MW)
-2081,Solar Power Tracker,Solar Power Tracker,Capacity Rating,Capacity Rating,,"The reported capacity rating, unknown selected if not provided",,"MWac, MWp/dc, unknown"
-2082,Solar Power Tracker,Solar Power Tracker,Technology Type,Technology Type,,If the solar installation uses PV (Photovoltaic) technology to create a current or uses heat from the sun to run a turbine,,"PV, Solar Thermal, Assumed PV"
-2083,Solar Power Tracker,Solar Power Tracker,Status,Status,,"Status of the project (operating, construction, pre-construction, announced, shelved, mothballed, retired, cancelled)",,see above
-2084,Solar Power Tracker,Solar Power Tracker,Start year,Start year,,Year the project is or is expected to be commissioned,,yyyy
-2085,Solar Power Tracker,Solar Power Tracker,Year,Year,,Capacity value is accurate as of the end of this year,,yyyy
-2086,Solar Power Tracker,Solar Power Tracker,Retired year,Retired year,,Year the plant is or is expected to be taken offline,,yyyy
-2087,Solar Power Tracker,Solar Power Tracker,Operator,Operator,,The company that operates the project,,n/a
-2088,Solar Power Tracker,Solar Power Tracker,Operator Name in Local Language / Script,Operator Name in Local Language / Script,,Company name that operates the project in the locally used script,,n/a
-2089,Solar Power Tracker,Solar Power Tracker,Owner,Owner,,The company that directly owns the plant,,n/a
-2090,Solar Power Tracker,Solar Power Tracker,Owner Name in Local Language / Script,Owner Name in Local Language / Script,,Company name that directly owns the project in the locally used script,,n/a
-2091,Solar Power Tracker,Solar Power Tracker,Hydrogen,Hydrogen,,True if a project phase is dedicated for green hydrogen production,,"True, blank"
-2092,Solar Power Tracker,Solar Power Tracker,Associated Storage,Associated Storage,,True if a project phase has existing or planned co-located storage,,"True, blank"
-2093,Solar Power Tracker,Solar Power Tracker,Latitude,Latitude,,"Latitude, assumed WGS84 (google maps), of the project phase",,decimal degrees
-2094,Solar Power Tracker,Solar Power Tracker,Longitude,Longitude,,"Longitude, assumed WGS84 (google maps), of the project phase",,decimal degrees
-2095,Solar Power Tracker,Solar Power Tracker,Location accuracy,Location accuracy,,"Location is Approximate based on using nearest city or other information in data sources, or Location is Exact when explicitly provided in data source",,"approximate, exact"
-2096,Solar Power Tracker,Solar Power Tracker,City,City,,"City, town, village, or township where project is located",,n/a
-2097,Solar Power Tracker,Solar Power Tracker,"Local area (taluk, county)","Local area (taluk, county)",,"County, taluk, or district where project is located",,n/a
-2098,Solar Power Tracker,Solar Power Tracker,"Major area (prefecture, district)","Major area (prefecture, district)",,"Prefecture, district, or municipality where project is located",,n/a
-2099,Solar Power Tracker,Solar Power Tracker,State/Province,State/Province,,Subnational unit where project is located,,n/a
-2100,Solar Power Tracker,Solar Power Tracker,Subregion,Subregion,,Subregion location based on United Nations definition,,n/a
-2101,Solar Power Tracker,Solar Power Tracker,Region,Region,,Region location based on United Nations definition,,n/a
-2102,Solar Power Tracker,Solar Power Tracker,Other IDs (location),Other IDs (location),,Location identifier from external datasets,,n/a
-2103,Solar Power Tracker,Solar Power Tracker,Other IDs (unit/phase),Other IDs (unit/phase),,Unit or Phase identifier from external datasets,,n/a
-2104,Solar Power Tracker,Solar Power Tracker,GEM location ID,GEM location ID,,GEM generated ID unique for each project,,L1+11 digits
-2105,Solar Power Tracker,Solar Power Tracker,GEM phase ID,GEM phase ID,,GEM generated ID unique for each phase,,G1+11 digits
-2106,Solar Power Tracker,Solar Power Tracker,Wiki URL,Wiki URL,,"URL of existing, footnoted factsheet GEM.wiki page",,n/a
-2107,Wind Power Tracker,Wind Power Tracker,Date Last Researched,Date Last Researched,,Date that this project was last researched by the researcher,,yyyy/mm/dd
-2108,Wind Power Tracker,Wind Power Tracker,Country/Area,Country/Area,,Country/Area the project is located in (Unabbreviated),,n/a
-2109,Wind Power Tracker,Wind Power Tracker,Project Name,Project Name,,Commonly used name,,n/a
-2110,Wind Power Tracker,Wind Power Tracker,Phase Name,Phase Name,,Common name of the project phase,,n/a
-2111,Wind Power Tracker,Wind Power Tracker,Project Name in Local Language / Script,Project Name in Local Language / Script,,Commonly used name in the locally used script,,n/a
-2112,Wind Power Tracker,Wind Power Tracker,Other Name(s),Other Name(s),,"Alternative names, including the name in local script",,n/a
-2113,Wind Power Tracker,Wind Power Tracker,Capacity (MW),Capacity (MW),,"Nameplate capacity, or best available data, of the phase in megawatts",,MW
-2114,Wind Power Tracker,Wind Power Tracker,Installation Type,Installation Type,,How the wind turbines are installed,,"onshore, offshore hard mount, offshore floating, offshore mount unknown"
-2115,Wind Power Tracker,Wind Power Tracker,Status,Status,,"Status of the project (operating, construction, pre-construction, announced, shelved, mothballed, retired, cancelled)",,n/a
-2116,Wind Power Tracker,Wind Power Tracker,Start year,Start year,,Year the project is or is expected to be commissioned,,yyyy
-2117,Wind Power Tracker,Wind Power Tracker,Retired year,Retired year,,Year the plant is taken offline,,yyyy
-2118,Wind Power Tracker,Wind Power Tracker,Operator,Operator,,The company that operates the project,,n/a
-2119,Wind Power Tracker,Wind Power Tracker,Operator Name in Local Language / Script,Operator Name in Local Language / Script,,Company name that operates the project in the locally used script,,n/a
-2120,Wind Power Tracker,Wind Power Tracker,Owner,Owner,,The company that directly owns the plant,,n/a
-2121,Wind Power Tracker,Wind Power Tracker,Owner Name in Local Language / Script,Owner Name in Local Language / Script,,Company name that directly owns the project in the locally used script,,n/a
-2122,Wind Power Tracker,Wind Power Tracker,Hydrogen,Hydrogen,,True if a project phase is dedicated for green hydrogen production,,"True, blank"
-2123,Wind Power Tracker,Wind Power Tracker,Associated Storage,Associated Storage,,True if storage is associated with a project phase,,"True, blank"
-2124,Wind Power Tracker,Wind Power Tracker,Latitude,Latitude,,"Latitude, assumed WGS84 (google maps), of the project phase",,decimal degrees
-2125,Wind Power Tracker,Wind Power Tracker,Longitude,Longitude,,"Longitude, assumed WGS84 (google maps), of the project phase",,decimal degrees
-2126,Wind Power Tracker,Wind Power Tracker,Location accuracy,Location accuracy,,"Location is Approximate based on using nearest city or other information in data sources, or Location is Exact when explicitly provided in data source",,"approximate, exact"
-2127,Wind Power Tracker,Wind Power Tracker,City,City,,"City, town, village, or township where project is located",,n/a
-2128,Wind Power Tracker,Wind Power Tracker,Local Area,Local Area,,"County, taluk, or district where project is located",,n/a
-2129,Wind Power Tracker,Wind Power Tracker,Major Area,Major Area,,"Prefecture, district, or municipality where project is located",,n/a
-2130,Wind Power Tracker,Wind Power Tracker,State/Province,State/Province,,Subnational unit where project is located,,n/a
-2131,Wind Power Tracker,Wind Power Tracker,Subregion,Subregion,,Subregion location based on United Nations definition,,n/a
-2132,Wind Power Tracker,Wind Power Tracker,Region,Region,,Region location based on United Nations definition,,n/a
-2133,Wind Power Tracker,Wind Power Tracker,Other IDs (location),Other IDs (location),,Location identifier from external dataset,,n/a
-2134,Wind Power Tracker,Wind Power Tracker,Other IDs (unit/phase),Other IDs (unit/phase),,Unit or Phase identifier from external dataset,,n/a
-2135,Wind Power Tracker,Wind Power Tracker,GEM Location ID,GEM Location ID,,GEM generated ID unique for each project,,L1+11 digits
-2136,Wind Power Tracker,Wind Power Tracker,GEM Phase ID,GEM Phase ID,,GEM generated ID unique for each phase,,G1+11 digits
-2137,Wind Power Tracker,Wind Power Tracker,Wiki URL,Wiki URL,,URL of existing or planned GEM.wiki page,,n/a
-2138,ccd_vector_2017_2023,Ccd Vector,uid,uid,,unique identifier of micro watershed,,
-2139,ccd_vector_2017_2023,Ccd Vector,area_in_ha,area_in_ha,,total area of the micro watershed in hectares (ha),,
-2140,ccd_vector_2017_2023,Ccd Vector,bacode,bacode,,basin code identifying the river basin to which the feature belongs,,
-2141,ccd_vector_2017_2023,Ccd Vector,sbcode,sbcode,,sub-basin code identifying the sub-basin unit within the larger river basin.,,
-2142,ccd_vector_2017_2023,Ccd Vector,wsconc,wsconc,,watershed concatenation code representing the hierarchical reference identifier for the micro watershed.,,
-2143,ccd_vector_2017_2023,Ccd Vector,STATE,STATE,,state in which the micro watershed is located,,
-2144,ccd_vector_2017_2023,Ccd Vector,District,District,,district in which the micro watershed is located,,
-2145,ccd_vector_2017_2023,Ccd Vector,TEHSIL,TEHSIL,,tehsil/block in which the micro watershed is located,,
-2146,ccd_vector_2017_2023,Ccd Vector,Low_Density_2017,Low_Density_2017,,low canopy cover density for 2017,,
-2147,ccd_vector_2017_2023,Ccd Vector,High_Density_2017,High_Density_2017,,high canopy cover density for 2017,,
-2148,ccd_vector_2017_2023,Ccd Vector,Missing_Data_2017,Missing_Data_2017,,missing data area in hectares for 2017,,
-2149,ccd_vector_2017_2023,Ccd Vector,Low_Density_2018,Low_Density_2018,,low canopy cover density for 2018,,
-2150,ccd_vector_2017_2023,Ccd Vector,High_Density_2018,High_Density_2018,,high canopy cover density for 2018,,
-2151,ccd_vector_2017_2023,Ccd Vector,Missing_Data_2018,Missing_Data_2018,,missing data area in hectares for 2018,,
-2152,ccd_vector_2017_2023,Ccd Vector,Low_Density_2019,Low_Density_2019,,low canopy cover density for 2019,,
-2153,ccd_vector_2017_2023,Ccd Vector,High_Density_2019,High_Density_2019,,high canopy cover density for 2019,,
-2154,ccd_vector_2017_2023,Ccd Vector,Missing_Data_2019,Missing_Data_2019,,missing data area in hectares for 2019,,
-2155,ccd_vector_2017_2023,Ccd Vector,Low_Density_2020,Low_Density_2020,,low canopy cover density for 2020,,
-2156,ccd_vector_2017_2023,Ccd Vector,High_Density_2020,High_Density_2020,,high canopy cover density for 2020,,
-2157,ccd_vector_2017_2023,Ccd Vector,Missing_Data_2020,Missing_Data_2020,,missing data area in hectares for 2020,,
-2158,ccd_vector_2017_2023,Ccd Vector,Low_Density_2021,Low_Density_2021,,low canopy cover density for 2021,,
-2159,ccd_vector_2017_2023,Ccd Vector,High_Density_2021,High_Density_2021,,high canopy cover density for 2021,,
-2160,ccd_vector_2017_2023,Ccd Vector,Missing_Data_2021,Missing_Data_2021,,missing data area in hectares for 2021,,
-2161,ccd_vector_2017_2023,Ccd Vector,Low_Density_2022,Low_Density_2022,,low canopy cover density for 2022,,
-2162,ccd_vector_2017_2023,Ccd Vector,High_Density_2022,High_Density_2022,,high canopy cover density for 2022,,
-2163,ccd_vector_2017_2023,Ccd Vector,Missing_Data_2022,Missing_Data_2022,,missing data area in hectares for 2022,,
-2164,ccd_vector_2017_2023,Ccd Vector,Low_Density_2023,Low_Density_2023,,low canopy cover density for 2023,,
-2165,ccd_vector_2017_2023,Ccd Vector,High_Density_2023,High_Density_2023,,high canopy cover density for 2023,,
-2166,ccd_vector_2017_2023,Ccd Vector,Missing_Data_2023,Missing_Data_2023,,missing data area in hectares for 2023,,
-2167,ch_vector_2017_2023,Canopy Height Vector,uid,uid,,unique identifier of micro watershed,,
-2168,ch_vector_2017_2023,Canopy Height Vector,area_in_ha,area_in_ha,,total area of the micro watershed in hectares (ha),,
-2169,ch_vector_2017_2023,Canopy Height Vector,bacode,bacode,,basin code identifying the river basin to which the feature belongs,,
-2170,ch_vector_2017_2023,Canopy Height Vector,sbcode,sbcode,,sub-basin code identifying the sub-basin unit within the larger river basin.,,
-2171,ch_vector_2017_2023,Canopy Height Vector,wsconc,wsconc,,watershed concatenation code representing the hierarchical reference identifier for the micro watershed.,,
-2172,ch_vector_2017_2023,Canopy Height Vector,STATE,STATE,,state in which the micro watershed is located,,
-2173,ch_vector_2017_2023,Canopy Height Vector,District,District,,district in which the micro watershed is located,,
-2174,ch_vector_2017_2023,Canopy Height Vector,TEHSIL,TEHSIL,,tehsil/block in which the micro watershed is located,,
-2175,ch_vector_2017_2023,Canopy Height Vector,Short_Trees_2017,Short_Trees_2017,,Area under short canopy height class in 2017,,
-2176,ch_vector_2017_2023,Canopy Height Vector,Medium_Height_Trees_2017,Medium_Height_Trees_2017,,Area under medium canopy height class in 2017,,
-2177,ch_vector_2017_2023,Canopy Height Vector,Tall_Trees_2017,Tall_Trees_2017,,Area under tall canopy height class in 2017,,
-2178,ch_vector_2017_2023,Canopy Height Vector,Missing_Data_2017,Missing_Data_2017,,Missing Data,,
-2179,ch_vector_2017_2023,Canopy Height Vector,Short_Trees_2018,Short_Trees_2018,,Area under short canopy height class in 2018,,
-2180,ch_vector_2017_2023,Canopy Height Vector,Medium_Height_Trees_2018,Medium_Height_Trees_2018,,Area under medium canopy height class in 2018,,
-2181,ch_vector_2017_2023,Canopy Height Vector,Tall_Trees_2018,Tall_Trees_2018,,Area under tall canopy height class in 2018,,
-2182,ch_vector_2017_2023,Canopy Height Vector,Missing_Data_2018,Missing_Data_2018,,Missing Data,,
-2183,ch_vector_2017_2023,Canopy Height Vector,Short_Trees_2019,Short_Trees_2019,,Area under short canopy height class in 2019,,
-2184,ch_vector_2017_2023,Canopy Height Vector,Medium_Height_Trees_2019,Medium_Height_Trees_2019,,Area under medium canopy height class in 2019,,
-2185,ch_vector_2017_2023,Canopy Height Vector,Tall_Trees_2019,Tall_Trees_2019,,Area under tall canopy height class in 2019,,
-2186,ch_vector_2017_2023,Canopy Height Vector,Missing_Data_2019,Missing_Data_2019,,Missing Data,,
-2187,ch_vector_2017_2023,Canopy Height Vector,Short_Trees_2020,Short_Trees_2020,,Area under short canopy height class in 2020,,
-2188,ch_vector_2017_2023,Canopy Height Vector,Medium_Height_Trees_2020,Medium_Height_Trees_2020,,Area under medium canopy height class in 2020,,
-2189,ch_vector_2017_2023,Canopy Height Vector,Tall_Trees_2020,Tall_Trees_2020,,Area under tall canopy height class in 2020,,
-2190,ch_vector_2017_2023,Canopy Height Vector,Missing_Data_2020,Missing_Data_2020,,Missing Data,,
-2191,ch_vector_2017_2023,Canopy Height Vector,Short_Trees_2021,Short_Trees_2021,,Area under short canopy height class in 2021,,
-2192,ch_vector_2017_2023,Canopy Height Vector,Medium_Height_Trees_2021,Medium_Height_Trees_2021,,Area under medium canopy height class in 2021,,
-2193,ch_vector_2017_2023,Canopy Height Vector,Tall_Trees_2021,Tall_Trees_2021,,Area under tall canopy height class in 2021,,
-2194,ch_vector_2017_2023,Canopy Height Vector,Missing_Data_2021,Missing_Data_2021,,Missing Data,,
-2195,ch_vector_2017_2023,Canopy Height Vector,Short_Trees_2022,Short_Trees_2022,,Area under short canopy height class in 2022,,
-2196,ch_vector_2017_2023,Canopy Height Vector,Medium_Height_Trees_2022,Medium_Height_Trees_2022,,Area under medium canopy height class in 2022,,
-2197,ch_vector_2017_2023,Canopy Height Vector,Tall_Trees_2022,Tall_Trees_2022,,Area under tall canopy height class in 2022,,
-2198,ch_vector_2017_2023,Canopy Height Vector,Missing_Data_2022,Missing_Data_2022,,Missing Data,,
-2199,ch_vector_2017_2023,Canopy Height Vector,Short_Trees_2023,Short_Trees_2023,,Area under short canopy height class in 2023,,
-2200,ch_vector_2017_2023,Canopy Height Vector,Medium_Height_Trees_2023,Medium_Height_Trees_2023,,Area under medium canopy height class in 2023,,
-2201,ch_vector_2017_2023,Canopy Height Vector,Tall_Trees_2023,Tall_Trees_2023,,Area under tall canopy height class in 2023,,
-2202,ch_vector_2017_2023,Canopy Height Vector,Missing_Data_2023,Missing_Data_2023,,Missing Data,,
-2203,tree_cover_change_vector,Tree Overall Change Vector,id,id,,identifier,,
-2204,tree_cover_change_vector,Tree Overall Change Vector,uid,uid,,unique identifier of micro watershed,,
-2205,tree_cover_change_vector,Tree Overall Change Vector,area_in_ha,area_in_ha,,total area of the micro watershed in hectares (ha),,
-2206,tree_cover_change_vector,Tree Overall Change Vector,bacode,bacode,,basin code identifying the river basin to which the feature belongs,,
-2207,tree_cover_change_vector,Tree Overall Change Vector,sbcode,sbcode,,sub-basin code identifying the sub-basin unit within the larger river basin.,,
-2208,tree_cover_change_vector,Tree Overall Change Vector,wsconc,wsconc,,watershed concatenation code representing the hierarchical reference identifier for the micro watershed.,,
-2209,tree_cover_change_vector,Tree Overall Change Vector,Deforestation,Deforestation,,area of tree cover loss,,
-2210,tree_cover_change_vector,Tree Overall Change Vector,Degradation,Degradation,,area of tree degradation,,
-2211,tree_cover_change_vector,Tree Overall Change Vector,No_Change,No_Change,,area where tree cover remain stable,,
-2212,tree_cover_change_vector,Tree Overall Change Vector,Improvement,Improvement,,improvement in tree height or canopy density,,
-2213,tree_cover_change_vector,Tree Overall Change Vector,Afforestation,Afforestation,,tree cover gain ,,
-2214,tree_cover_change_vector,Tree Overall Change Vector,Partially_Degraded,Partially_Degraded,,partially degraded,,
-2215,tree_cover_change_vector,Tree Overall Change Vector,Missing Data,Missing Data,,missing data,,
-2216,facilities_proximity_vector,Facilities Proximity,FID,fid,,Identifier for this published map feature.,,
-2217,facilities_proximity_vector,Facilities Proximity,index,index,,Position of the village in the Core Stack standard boundary table.,,
-2218,facilities_proximity_vector,Facilities Proximity,state_id,state_id,,Census 2011 code identifying this state for joining village data.,,
-2219,facilities_proximity_vector,Facilities Proximity,district_id,district_id,,Census 2011 code identifying this district for joining village data.,,
-2220,facilities_proximity_vector,Facilities Proximity,tehsil_id,tehsil_id,,Census 2011 code identifying this sub-district for joining village data.,,
-2221,facilities_proximity_vector,Facilities Proximity,village_id,village_id,,Census 2011 code identifying this village for joining village data.,,
-2222,facilities_proximity_vector,Facilities Proximity,state_name,state_name,,Name of the state for this village.,,
-2223,facilities_proximity_vector,Facilities Proximity,district_name,district_name,,Name of the district for this village.,,
-2224,facilities_proximity_vector,Facilities Proximity,tehsil_name,tehsil_name,,Name of the tehsil for this village.,,
-2225,facilities_proximity_vector,Facilities Proximity,village_name,village_name,,Name of the village for this village.,,
-2226,facilities_proximity_vector,Facilities Proximity,facilities_status,facilities_status,,Shows whether distances were computed or why no village or facility match was available.,,
-2227,facilities_proximity_vector,Facilities Proximity,l2_essential_education_distance_km,l2_essential_education_distance_km,,"Great-circle distance from the village point to the farthest required service among Primary School, Upper Primary School and Secondary School; lower means the full bundle is nearer.",,
-2228,facilities_proximity_vector,Facilities Proximity,l2_essential_education_selected_l3,l2_essential_education_selected_l3,,Service type that determines the essential education distance for this village.,,
-2229,facilities_proximity_vector,Facilities Proximity,l2_essential_education_selected_l3_label,l2_essential_education_selected_l3_label,,Readable name of the service type that determines the essential education distance.,,
-2230,facilities_proximity_vector,Facilities Proximity,l2_essential_education_facility_uid,l2_essential_education_facility_uid,,Identifier of the facility that determines the essential education distance.,,
-2231,facilities_proximity_vector,Facilities Proximity,l3_school_primary_distance_km,l3_school_primary_distance_km,,Great-circle distance from the village point to the nearest primary school. Useful for comparing local service access; it is not travel distance.,,
-2232,facilities_proximity_vector,Facilities Proximity,l3_school_primary_facility_uid,l3_school_primary_facility_uid,,Identifier of the nearest primary school used for this village distance.,,
-2233,facilities_proximity_vector,Facilities Proximity,l3_school_primary_inside_scope,l3_school_primary_inside_scope,,Whether the nearest primary school lies within the requested area; a nearby service outside it can still be the closest.,,
-2234,facilities_proximity_vector,Facilities Proximity,l3_school_upper_primary_distance_km,l3_school_upper_primary_distance_km,,Great-circle distance from the village point to the nearest upper primary school. Useful for comparing local service access; it is not travel distance.,,
-2235,facilities_proximity_vector,Facilities Proximity,l3_school_upper_primary_facility_uid,l3_school_upper_primary_facility_uid,,Identifier of the nearest upper primary school used for this village distance.,,
-2236,facilities_proximity_vector,Facilities Proximity,l3_school_upper_primary_inside_scope,l3_school_upper_primary_inside_scope,,Whether the nearest upper primary school lies within the requested area; a nearby service outside it can still be the closest.,,
-2237,facilities_proximity_vector,Facilities Proximity,l3_school_secondary_distance_km,l3_school_secondary_distance_km,,Great-circle distance from the village point to the nearest secondary school. Useful for comparing local service access; it is not travel distance.,,
-2238,facilities_proximity_vector,Facilities Proximity,l3_school_secondary_facility_uid,l3_school_secondary_facility_uid,,Identifier of the nearest secondary school used for this village distance.,,
-2239,facilities_proximity_vector,Facilities Proximity,l3_school_secondary_inside_scope,l3_school_secondary_inside_scope,,Whether the nearest secondary school lies within the requested area; a nearby service outside it can still be the closest.,,
-2240,facilities_proximity_vector,Facilities Proximity,l2_higher_education_distance_km,l2_higher_education_distance_km,,"Great-circle distance from the village point to the nearest option among Higher Secondary School, College and University-Type Institution; lower means one option is nearer.",,
-2241,facilities_proximity_vector,Facilities Proximity,l2_higher_education_selected_l3,l2_higher_education_selected_l3,,Service type that determines the higher education distance for this village.,,
-2242,facilities_proximity_vector,Facilities Proximity,l2_higher_education_selected_l3_label,l2_higher_education_selected_l3_label,,Readable name of the service type that determines the higher education distance.,,
-2243,facilities_proximity_vector,Facilities Proximity,l2_higher_education_facility_uid,l2_higher_education_facility_uid,,Identifier of the facility that determines the higher education distance.,,
-2244,facilities_proximity_vector,Facilities Proximity,l3_school_higher_secondary_distance_km,l3_school_higher_secondary_distance_km,,Great-circle distance from the village point to the nearest higher secondary school. Useful for comparing local service access; it is not travel distance.,,
-2245,facilities_proximity_vector,Facilities Proximity,l3_school_higher_secondary_facility_uid,l3_school_higher_secondary_facility_uid,,Identifier of the nearest higher secondary school used for this village distance.,,
-2246,facilities_proximity_vector,Facilities Proximity,l3_school_higher_secondary_inside_scope,l3_school_higher_secondary_inside_scope,,Whether the nearest higher secondary school lies within the requested area; a nearby service outside it can still be the closest.,,
-2247,facilities_proximity_vector,Facilities Proximity,l3_college_distance_km,l3_college_distance_km,,Great-circle distance from the village point to the nearest college. Useful for comparing local service access; it is not travel distance.,,
-2248,facilities_proximity_vector,Facilities Proximity,l3_college_facility_uid,l3_college_facility_uid,,Identifier of the nearest college used for this village distance.,,
-2249,facilities_proximity_vector,Facilities Proximity,l3_college_inside_scope,l3_college_inside_scope,,Whether the nearest college lies within the requested area; a nearby service outside it can still be the closest.,,
-2250,facilities_proximity_vector,Facilities Proximity,l3_universities_distance_km,l3_universities_distance_km,,Great-circle distance from the village point to the nearest university-type institution. Useful for comparing local service access; it is not travel distance.,,
-2251,facilities_proximity_vector,Facilities Proximity,l3_universities_facility_uid,l3_universities_facility_uid,,Identifier of the nearest university-type institution used for this village distance.,,
-2252,facilities_proximity_vector,Facilities Proximity,l3_universities_inside_scope,l3_universities_inside_scope,,Whether the nearest university-type institution lies within the requested area; a nearby service outside it can still be the closest.,,
-2253,facilities_proximity_vector,Facilities Proximity,l2_essential_health_distance_km,l2_essential_health_distance_km,,Great-circle distance from the village point to the farthest required service among Health Sub-Centre and Primary Health Centre; lower means the full bundle is nearer.,,
-2254,facilities_proximity_vector,Facilities Proximity,l2_essential_health_selected_l3,l2_essential_health_selected_l3,,Service type that determines the essential health distance for this village.,,
-2255,facilities_proximity_vector,Facilities Proximity,l2_essential_health_selected_l3_label,l2_essential_health_selected_l3_label,,Readable name of the service type that determines the essential health distance.,,
-2256,facilities_proximity_vector,Facilities Proximity,l2_essential_health_facility_uid,l2_essential_health_facility_uid,,Identifier of the facility that determines the essential health distance.,,
-2257,facilities_proximity_vector,Facilities Proximity,l3_health_sub_cen_distance_km,l3_health_sub_cen_distance_km,,Great-circle distance from the village point to the nearest health sub-centre. Useful for comparing local service access; it is not travel distance.,,
-2258,facilities_proximity_vector,Facilities Proximity,l3_health_sub_cen_facility_uid,l3_health_sub_cen_facility_uid,,Identifier of the nearest health sub-centre used for this village distance.,,
-2259,facilities_proximity_vector,Facilities Proximity,l3_health_sub_cen_inside_scope,l3_health_sub_cen_inside_scope,,Whether the nearest health sub-centre lies within the requested area; a nearby service outside it can still be the closest.,,
-2260,facilities_proximity_vector,Facilities Proximity,l3_health_phc_distance_km,l3_health_phc_distance_km,,Great-circle distance from the village point to the nearest primary health centre. Useful for comparing local service access; it is not travel distance.,,
-2261,facilities_proximity_vector,Facilities Proximity,l3_health_phc_facility_uid,l3_health_phc_facility_uid,,Identifier of the nearest primary health centre used for this village distance.,,
-2262,facilities_proximity_vector,Facilities Proximity,l3_health_phc_inside_scope,l3_health_phc_inside_scope,,Whether the nearest primary health centre lies within the requested area; a nearby service outside it can still be the closest.,,
-2263,facilities_proximity_vector,Facilities Proximity,l2_advanced_health_distance_km,l2_advanced_health_distance_km,,"Great-circle distance from the village point to the nearest option among Community Health Centre, District Hospital and Specialist Or Tertiary Hospital; lower means one option is nearer.",,
-2264,facilities_proximity_vector,Facilities Proximity,l2_advanced_health_selected_l3,l2_advanced_health_selected_l3,,Service type that determines the advanced health distance for this village.,,
-2265,facilities_proximity_vector,Facilities Proximity,l2_advanced_health_selected_l3_label,l2_advanced_health_selected_l3_label,,Readable name of the service type that determines the advanced health distance.,,
-2266,facilities_proximity_vector,Facilities Proximity,l2_advanced_health_facility_uid,l2_advanced_health_facility_uid,,Identifier of the facility that determines the advanced health distance.,,
-2267,facilities_proximity_vector,Facilities Proximity,l3_health_chc_distance_km,l3_health_chc_distance_km,,Great-circle distance from the village point to the nearest community health centre. Useful for comparing local service access; it is not travel distance.,,
-2268,facilities_proximity_vector,Facilities Proximity,l3_health_chc_facility_uid,l3_health_chc_facility_uid,,Identifier of the nearest community health centre used for this village distance.,,
-2269,facilities_proximity_vector,Facilities Proximity,l3_health_chc_inside_scope,l3_health_chc_inside_scope,,Whether the nearest community health centre lies within the requested area; a nearby service outside it can still be the closest.,,
-2270,facilities_proximity_vector,Facilities Proximity,l3_health_dis_h_distance_km,l3_health_dis_h_distance_km,,Great-circle distance from the village point to the nearest district hospital. Useful for comparing local service access; it is not travel distance.,,
-2271,facilities_proximity_vector,Facilities Proximity,l3_health_dis_h_facility_uid,l3_health_dis_h_facility_uid,,Identifier of the nearest district hospital used for this village distance.,,
-2272,facilities_proximity_vector,Facilities Proximity,l3_health_dis_h_inside_scope,l3_health_dis_h_inside_scope,,Whether the nearest district hospital lies within the requested area; a nearby service outside it can still be the closest.,,
-2273,facilities_proximity_vector,Facilities Proximity,l3_health_s_t_h_distance_km,l3_health_s_t_h_distance_km,,Great-circle distance from the village point to the nearest specialist or tertiary hospital. Useful for comparing local service access; it is not travel distance.,,
-2274,facilities_proximity_vector,Facilities Proximity,l3_health_s_t_h_facility_uid,l3_health_s_t_h_facility_uid,,Identifier of the nearest specialist or tertiary hospital used for this village distance.,,
-2275,facilities_proximity_vector,Facilities Proximity,l3_health_s_t_h_inside_scope,l3_health_s_t_h_inside_scope,,Whether the nearest specialist or tertiary hospital lies within the requested area; a nearby service outside it can still be the closest.,,
-2276,facilities_proximity_vector,Facilities Proximity,l2_essential_services_distance_km,l2_essential_services_distance_km,,Great-circle distance from the village point to the nearest public distribution system; lower means that service is nearer.,,
-2277,facilities_proximity_vector,Facilities Proximity,l2_essential_services_selected_l3,l2_essential_services_selected_l3,,Service type that determines the essential services distance for this village.,,
-2278,facilities_proximity_vector,Facilities Proximity,l2_essential_services_selected_l3_label,l2_essential_services_selected_l3_label,,Readable name of the service type that determines the essential services distance.,,
-2279,facilities_proximity_vector,Facilities Proximity,l2_essential_services_facility_uid,l2_essential_services_facility_uid,,Identifier of the facility that determines the essential services distance.,,
-2280,facilities_proximity_vector,Facilities Proximity,l3_pds_distance_km,l3_pds_distance_km,,Great-circle distance from the village point to the nearest public distribution system. Useful for comparing local service access; it is not travel distance.,,
-2281,facilities_proximity_vector,Facilities Proximity,l3_pds_facility_uid,l3_pds_facility_uid,,Identifier of the nearest public distribution system used for this village distance.,,
-2282,facilities_proximity_vector,Facilities Proximity,l3_pds_inside_scope,l3_pds_inside_scope,,Whether the nearest public distribution system lies within the requested area; a nearby service outside it can still be the closest.,,
-2283,facilities_proximity_vector,Facilities Proximity,l2_financial_inclusion_distance_km,l2_financial_inclusion_distance_km,,"Great-circle distance from the village point to the farthest required service among Common Service Centre, Bank Mitra, Bank Branch and Bank ATM; lower means the full bundle is nearer.",,
-2284,facilities_proximity_vector,Facilities Proximity,l2_financial_inclusion_selected_l3,l2_financial_inclusion_selected_l3,,Service type that determines the financial inclusion distance for this village.,,
-2285,facilities_proximity_vector,Facilities Proximity,l2_financial_inclusion_selected_l3_label,l2_financial_inclusion_selected_l3_label,,Readable name of the service type that determines the financial inclusion distance.,,
-2286,facilities_proximity_vector,Facilities Proximity,l2_financial_inclusion_facility_uid,l2_financial_inclusion_facility_uid,,Identifier of the facility that determines the financial inclusion distance.,,
-2287,facilities_proximity_vector,Facilities Proximity,l3_csc_distance_km,l3_csc_distance_km,,Great-circle distance from the village point to the nearest common service centre. Useful for comparing local service access; it is not travel distance.,,
-2288,facilities_proximity_vector,Facilities Proximity,l3_csc_facility_uid,l3_csc_facility_uid,,Identifier of the nearest common service centre used for this village distance.,,
-2289,facilities_proximity_vector,Facilities Proximity,l3_csc_inside_scope,l3_csc_inside_scope,,Whether the nearest common service centre lies within the requested area; a nearby service outside it can still be the closest.,,
-2290,facilities_proximity_vector,Facilities Proximity,l3_bank_mitra_distance_km,l3_bank_mitra_distance_km,,Great-circle distance from the village point to the nearest bank mitra. Useful for comparing local service access; it is not travel distance.,,
-2291,facilities_proximity_vector,Facilities Proximity,l3_bank_mitra_facility_uid,l3_bank_mitra_facility_uid,,Identifier of the nearest bank mitra used for this village distance.,,
-2292,facilities_proximity_vector,Facilities Proximity,l3_bank_mitra_inside_scope,l3_bank_mitra_inside_scope,,Whether the nearest bank mitra lies within the requested area; a nearby service outside it can still be the closest.,,
-2293,facilities_proximity_vector,Facilities Proximity,l3_bank_branch_distance_km,l3_bank_branch_distance_km,,Great-circle distance from the village point to the nearest bank branch. Useful for comparing local service access; it is not travel distance.,,
-2294,facilities_proximity_vector,Facilities Proximity,l3_bank_branch_facility_uid,l3_bank_branch_facility_uid,,Identifier of the nearest bank branch used for this village distance.,,
-2295,facilities_proximity_vector,Facilities Proximity,l3_bank_branch_inside_scope,l3_bank_branch_inside_scope,,Whether the nearest bank branch lies within the requested area; a nearby service outside it can still be the closest.,,
-2296,facilities_proximity_vector,Facilities Proximity,l3_bank_atm_distance_km,l3_bank_atm_distance_km,,Great-circle distance from the village point to the nearest bank atm. Useful for comparing local service access; it is not travel distance.,,
-2297,facilities_proximity_vector,Facilities Proximity,l3_bank_atm_facility_uid,l3_bank_atm_facility_uid,,Identifier of the nearest bank atm used for this village distance.,,
-2298,facilities_proximity_vector,Facilities Proximity,l3_bank_atm_inside_scope,l3_bank_atm_inside_scope,,Whether the nearest bank atm lies within the requested area; a nearby service outside it can still be the closest.,,
-2299,facilities_proximity_vector,Facilities Proximity,l2_apmc_access_distance_km,l2_apmc_access_distance_km,,Great-circle distance from the village point to the nearest option among APMC and Agriculture Markets And Trading; lower means one option is nearer.,,
-2300,facilities_proximity_vector,Facilities Proximity,l2_apmc_access_selected_l3,l2_apmc_access_selected_l3,,Service type that determines the apmc and market distance for this village.,,
-2301,facilities_proximity_vector,Facilities Proximity,l2_apmc_access_selected_l3_label,l2_apmc_access_selected_l3_label,,Readable name of the service type that determines the apmc and market distance.,,
-2302,facilities_proximity_vector,Facilities Proximity,l2_apmc_access_facility_uid,l2_apmc_access_facility_uid,,Identifier of the facility that determines the apmc and market distance.,,
-2303,facilities_proximity_vector,Facilities Proximity,l3_apmc_distance_km,l3_apmc_distance_km,,Great-circle distance from the village point to the nearest apmc. Useful for comparing local service access; it is not travel distance.,,
-2304,facilities_proximity_vector,Facilities Proximity,l3_apmc_facility_uid,l3_apmc_facility_uid,,Identifier of the nearest apmc used for this village distance.,,
-2305,facilities_proximity_vector,Facilities Proximity,l3_apmc_inside_scope,l3_apmc_inside_scope,,Whether the nearest apmc lies within the requested area; a nearby service outside it can still be the closest.,,
-2306,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_markets_trading_distance_km,l3_agri_industry_markets_trading_distance_km,,Great-circle distance from the village point to the nearest agriculture markets and trading. Useful for comparing local service access; it is not travel distance.,,
-2307,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_markets_trading_facility_uid,l3_agri_industry_markets_trading_facility_uid,,Identifier of the nearest agriculture markets and trading used for this village distance.,,
-2308,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_markets_trading_inside_scope,l3_agri_industry_markets_trading_inside_scope,,Whether the nearest agriculture markets and trading lies within the requested area; a nearby service outside it can still be the closest.,,
-2309,facilities_proximity_vector,Facilities Proximity,l2_post_harvest_distance_km,l2_post_harvest_distance_km,,"Great-circle distance from the village point to the nearest option among Storage And Warehousing, Distribution Utilities, Agriculture Processing and Industrial Manufacturing; lower means one option is nearer.",,
-2310,facilities_proximity_vector,Facilities Proximity,l2_post_harvest_selected_l3,l2_post_harvest_selected_l3,,Service type that determines the post-harvest infrastructure distance for this village.,,
-2311,facilities_proximity_vector,Facilities Proximity,l2_post_harvest_selected_l3_label,l2_post_harvest_selected_l3_label,,Readable name of the service type that determines the post-harvest infrastructure distance.,,
-2312,facilities_proximity_vector,Facilities Proximity,l2_post_harvest_facility_uid,l2_post_harvest_facility_uid,,Identifier of the facility that determines the post-harvest infrastructure distance.,,
-2313,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_storage_warehousing_distance_km,l3_agri_industry_storage_warehousing_distance_km,,Great-circle distance from the village point to the nearest storage and warehousing. Useful for comparing local service access; it is not travel distance.,,
-2314,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_storage_warehousing_facility_uid,l3_agri_industry_storage_warehousing_facility_uid,,Identifier of the nearest storage and warehousing used for this village distance.,,
-2315,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_storage_warehousing_inside_scope,l3_agri_industry_storage_warehousing_inside_scope,,Whether the nearest storage and warehousing lies within the requested area; a nearby service outside it can still be the closest.,,
-2316,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_distribution_utilities_distance_km,l3_agri_industry_distribution_utilities_distance_km,,Great-circle distance from the village point to the nearest distribution utilities. Useful for comparing local service access; it is not travel distance.,,
-2317,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_distribution_utilities_facility_uid,l3_agri_industry_distribution_utilities_facility_uid,,Identifier of the nearest distribution utilities used for this village distance.,,
-2318,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_distribution_utilities_inside_scope,l3_agri_industry_distribution_utilities_inside_scope,,Whether the nearest distribution utilities lies within the requested area; a nearby service outside it can still be the closest.,,
-2319,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_agri_processing_distance_km,l3_agri_industry_agri_processing_distance_km,,Great-circle distance from the village point to the nearest agriculture processing. Useful for comparing local service access; it is not travel distance.,,
-2320,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_agri_processing_facility_uid,l3_agri_industry_agri_processing_facility_uid,,Identifier of the nearest agriculture processing used for this village distance.,,
-2321,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_agri_processing_inside_scope,l3_agri_industry_agri_processing_inside_scope,,Whether the nearest agriculture processing lies within the requested area; a nearby service outside it can still be the closest.,,
-2322,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_industrial_manufacturing_distance_km,l3_agri_industry_industrial_manufacturing_distance_km,,Great-circle distance from the village point to the nearest industrial manufacturing. Useful for comparing local service access; it is not travel distance.,,
-2323,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_industrial_manufacturing_facility_uid,l3_agri_industry_industrial_manufacturing_facility_uid,,Identifier of the nearest industrial manufacturing used for this village distance.,,
-2324,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_industrial_manufacturing_inside_scope,l3_agri_industry_industrial_manufacturing_inside_scope,,Whether the nearest industrial manufacturing lies within the requested area; a nearby service outside it can still be the closest.,,
-2325,facilities_proximity_vector,Facilities Proximity,l2_cooperative_distance_km,l2_cooperative_distance_km,,Great-circle distance from the village point to the nearest cooperatives and societies; lower means that service is nearer.,,
-2326,facilities_proximity_vector,Facilities Proximity,l2_cooperative_selected_l3,l2_cooperative_selected_l3,,Service type that determines the cooperative distance for this village.,,
-2327,facilities_proximity_vector,Facilities Proximity,l2_cooperative_selected_l3_label,l2_cooperative_selected_l3_label,,Readable name of the service type that determines the cooperative distance.,,
-2328,facilities_proximity_vector,Facilities Proximity,l2_cooperative_facility_uid,l2_cooperative_facility_uid,,Identifier of the facility that determines the cooperative distance.,,
-2329,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_co_operatives_societies_distance_km,l3_agri_industry_co_operatives_societies_distance_km,,Great-circle distance from the village point to the nearest cooperatives and societies. Useful for comparing local service access; it is not travel distance.,,
-2330,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_co_operatives_societies_facility_uid,l3_agri_industry_co_operatives_societies_facility_uid,,Identifier of the nearest cooperatives and societies used for this village distance.,,
-2331,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_co_operatives_societies_inside_scope,l3_agri_industry_co_operatives_societies_inside_scope,,Whether the nearest cooperatives and societies lies within the requested area; a nearby service outside it can still be the closest.,,
-2332,facilities_proximity_vector,Facilities Proximity,l2_livestock_distance_km,l2_livestock_distance_km,,Great-circle distance from the village point to the nearest dairy and animal husbandry; lower means that service is nearer.,,
-2333,facilities_proximity_vector,Facilities Proximity,l2_livestock_selected_l3,l2_livestock_selected_l3,,Service type that determines the livestock support distance for this village.,,
-2334,facilities_proximity_vector,Facilities Proximity,l2_livestock_selected_l3_label,l2_livestock_selected_l3_label,,Readable name of the service type that determines the livestock support distance.,,
-2335,facilities_proximity_vector,Facilities Proximity,l2_livestock_facility_uid,l2_livestock_facility_uid,,Identifier of the facility that determines the livestock support distance.,,
-2336,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_dairy_animal_husbandry_distance_km,l3_agri_industry_dairy_animal_husbandry_distance_km,,Great-circle distance from the village point to the nearest dairy and animal husbandry. Useful for comparing local service access; it is not travel distance.,,
-2337,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_dairy_animal_husbandry_facility_uid,l3_agri_industry_dairy_animal_husbandry_facility_uid,,Identifier of the nearest dairy and animal husbandry used for this village distance.,,
-2338,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_dairy_animal_husbandry_inside_scope,l3_agri_industry_dairy_animal_husbandry_inside_scope,,Whether the nearest dairy and animal husbandry lies within the requested area; a nearby service outside it can still be the closest.,,
-2339,facilities_proximity_vector,Facilities Proximity,l2_agri_support_infra_distance_km,l2_agri_support_infra_distance_km,,Great-circle distance from the village point to the nearest agriculture support infrastructure; lower means that service is nearer.,,
-2340,facilities_proximity_vector,Facilities Proximity,l2_agri_support_infra_selected_l3,l2_agri_support_infra_selected_l3,,Service type that determines the agriculture support infrastructure distance for this village.,,
-2341,facilities_proximity_vector,Facilities Proximity,l2_agri_support_infra_selected_l3_label,l2_agri_support_infra_selected_l3_label,,Readable name of the service type that determines the agriculture support infrastructure distance.,,
-2342,facilities_proximity_vector,Facilities Proximity,l2_agri_support_infra_facility_uid,l2_agri_support_infra_facility_uid,,Identifier of the facility that determines the agriculture support infrastructure distance.,,
-2343,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_agri_support_infrastructure_distance_km,l3_agri_industry_agri_support_infrastructure_distance_km,,Great-circle distance from the village point to the nearest agriculture support infrastructure. Useful for comparing local service access; it is not travel distance.,,
-2344,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_agri_support_infrastructure_facility_uid,l3_agri_industry_agri_support_infrastructure_facility_uid,,Identifier of the nearest agriculture support infrastructure used for this village distance.,,
-2345,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_agri_support_infrastructure_inside_scope,l3_agri_industry_agri_support_infrastructure_inside_scope,,Whether the nearest agriculture support infrastructure lies within the requested area; a nearby service outside it can still be the closest.,,
-2346,facilities_proximity_vector,Facilities Proximity,facilities_layer_kind,facilities_layer_kind,,,,
-2347,facilities_proximity_vector,Facilities Proximity,title,title,,,,
-2349,livestocks_vector,cs_village_livestock_census_20,index,index,,Row index,,
-2350,livestocks_vector,cs_village_livestock_census_20,state_id,state_id,,Census 2011 State ID,,
-2351,livestocks_vector,cs_village_livestock_census_20,district_id,district_id,,Census 2011 District ID,,
-2352,livestocks_vector,cs_village_livestock_census_20,tehsil_id,tehsil_id,,Census 2011 sub-district ID,,
-2353,livestocks_vector,cs_village_livestock_census_20,village_id,village_id,,Census 2011 Village ID,,
-2354,livestocks_vector,cs_village_livestock_census_20,state_name,state_name,,State name,,
-2355,livestocks_vector,cs_village_livestock_census_20,district_name,district_name,,District name,,
-2356,livestocks_vector,cs_village_livestock_census_20,tehsil_name,tehsil_name,,Tehsil name,,
-2357,livestocks_vector,cs_village_livestock_census_20,village_name,village_name,,Village Name,,
-2358,livestocks_vector,cs_village_livestock_census_20,livestock_status,livestock_status,,"Village data availability: matched, no village id available, no data available for this village",,
-2359,livestocks_vector,cs_village_livestock_census_20,all_livestock_total,all_livestock_total,,"Livestocks (Cattles, Buffalo, Sheeps, Goats, Pigs) count",,
-2360,livestocks_vector,cs_village_livestock_census_20,large_animals_total,large_animals_total,,"Large Animals (Cattles, Buffalo) count.",,
-2361,livestocks_vector,cs_village_livestock_census_20,cattle_total,cattle_total,,Cattles count,,
-2362,livestocks_vector,cs_village_livestock_census_20,cattle_female,cattle_female,,Female Cattle count,,
-2363,livestocks_vector,cs_village_livestock_census_20,cattle_male,cattle_male,,Male Cattle count,,
-2364,livestocks_vector,cs_village_livestock_census_20,buffalo_total,buffalo_total,,Buffalos count,,
-2365,livestocks_vector,cs_village_livestock_census_20,buffalo_female,buffalo_female,,Female Buffalo count,,
-2366,livestocks_vector,cs_village_livestock_census_20,buffalo_male,buffalo_male,,Male Buffalo count,,
-2367,livestocks_vector,cs_village_livestock_census_20,small_animals_total,small_animals_total,,"Small Animals (Sheeps, Goats, Pigs) count",,
-2368,livestocks_vector,cs_village_livestock_census_20,sheep_total,sheep_total,,Sheeps count,,
-2369,livestocks_vector,cs_village_livestock_census_20,sheep_female,sheep_female,,Female Sheep count,,
-2370,livestocks_vector,cs_village_livestock_census_20,sheep_male,sheep_male,,Male Sheep count,,
-2371,livestocks_vector,cs_village_livestock_census_20,goat_total,goat_total,,Goats count,,
-2372,livestocks_vector,cs_village_livestock_census_20,goat_female,goat_female,,Female Goat count,,
-2373,livestocks_vector,cs_village_livestock_census_20,goat_male,goat_male,,Male Goat count,,
-2374,livestocks_vector,cs_village_livestock_census_20,pig_total,pig_total,,Pigs Count,,
-2375,livestocks_vector,cs_village_livestock_census_20,pig_female,pig_female,,Female Pig count,,
-2376,livestocks_vector,cs_village_livestock_census_20,pig_male,pig_male,,Male Pig count,,
-2377,livestocks_vector,cs_village_livestock_census_20,FID,fid,,Feature identifier,,
+2072,forest_fire_vector,Forest Fire,uid,uid,,unique identifier for the micro watershed,,NA
+2073,Solar Power Tracker,Solar Power Tracker,Date Last Researched,Date Last Researched,,Date that this project was last researched by the researcher,,yyyy/mm/dd
+2074,Solar Power Tracker,Solar Power Tracker,Country/Area,Country/Area,,Country or area the project is located in (Unabbreviated),,n/a
+2075,Solar Power Tracker,Solar Power Tracker,Project Name,Project Name,,Commonly used name,,n/a
+2076,Solar Power Tracker,Solar Power Tracker,Phase Name,Phase Name,,Common name of the project phase,,n/a
+2077,Solar Power Tracker,Solar Power Tracker,Project Name in Local Language / Script,Project Name in Local Language / Script,,Commonly used name in the locally used script,,n/a
+2078,Solar Power Tracker,Solar Power Tracker,Other Name(s),Other Name(s),,"Alternative names, including the name in local script",,n/a
+2079,Solar Power Tracker,Solar Power Tracker,Capacity (MW),Capacity (MW),,"Nameplate capacity, or best available data, of the phase in megawatts rounded to its nearest tenth.",,Megawatt (MW)
+2080,Solar Power Tracker,Solar Power Tracker,Capacity Rating,Capacity Rating,,"The reported capacity rating, unknown selected if not provided",,"MWac, MWp/dc, unknown"
+2081,Solar Power Tracker,Solar Power Tracker,Technology Type,Technology Type,,If the solar installation uses PV (Photovoltaic) technology to create a current or uses heat from the sun to run a turbine,,"PV, Solar Thermal, Assumed PV"
+2082,Solar Power Tracker,Solar Power Tracker,Status,Status,,"Status of the project (operating, construction, pre-construction, announced, shelved, mothballed, retired, cancelled)",,see above
+2083,Solar Power Tracker,Solar Power Tracker,Start year,Start year,,Year the project is or is expected to be commissioned,,yyyy
+2084,Solar Power Tracker,Solar Power Tracker,Year,Year,,Capacity value is accurate as of the end of this year,,yyyy
+2085,Solar Power Tracker,Solar Power Tracker,Retired year,Retired year,,Year the plant is or is expected to be taken offline,,yyyy
+2086,Solar Power Tracker,Solar Power Tracker,Operator,Operator,,The company that operates the project,,n/a
+2087,Solar Power Tracker,Solar Power Tracker,Operator Name in Local Language / Script,Operator Name in Local Language / Script,,Company name that operates the project in the locally used script,,n/a
+2088,Solar Power Tracker,Solar Power Tracker,Owner,Owner,,The company that directly owns the plant,,n/a
+2089,Solar Power Tracker,Solar Power Tracker,Owner Name in Local Language / Script,Owner Name in Local Language / Script,,Company name that directly owns the project in the locally used script,,n/a
+2090,Solar Power Tracker,Solar Power Tracker,Hydrogen,Hydrogen,,True if a project phase is dedicated for green hydrogen production,,"True, blank"
+2091,Solar Power Tracker,Solar Power Tracker,Associated Storage,Associated Storage,,True if a project phase has existing or planned co-located storage,,"True, blank"
+2092,Solar Power Tracker,Solar Power Tracker,Latitude,Latitude,,"Latitude, assumed WGS84 (google maps), of the project phase",,decimal degrees
+2093,Solar Power Tracker,Solar Power Tracker,Longitude,Longitude,,"Longitude, assumed WGS84 (google maps), of the project phase",,decimal degrees
+2094,Solar Power Tracker,Solar Power Tracker,Location accuracy,Location accuracy,,"Location is Approximate based on using nearest city or other information in data sources, or Location is Exact when explicitly provided in data source",,"approximate, exact"
+2095,Solar Power Tracker,Solar Power Tracker,City,City,,"City, town, village, or township where project is located",,n/a
+2096,Solar Power Tracker,Solar Power Tracker,"Local area (taluk, county)","Local area (taluk, county)",,"County, taluk, or district where project is located",,n/a
+2097,Solar Power Tracker,Solar Power Tracker,"Major area (prefecture, district)","Major area (prefecture, district)",,"Prefecture, district, or municipality where project is located",,n/a
+2098,Solar Power Tracker,Solar Power Tracker,State/Province,State/Province,,Subnational unit where project is located,,n/a
+2099,Solar Power Tracker,Solar Power Tracker,Subregion,Subregion,,Subregion location based on United Nations definition,,n/a
+2100,Solar Power Tracker,Solar Power Tracker,Region,Region,,Region location based on United Nations definition,,n/a
+2101,Solar Power Tracker,Solar Power Tracker,Other IDs (location),Other IDs (location),,Location identifier from external datasets,,n/a
+2102,Solar Power Tracker,Solar Power Tracker,Other IDs (unit/phase),Other IDs (unit/phase),,Unit or Phase identifier from external datasets,,n/a
+2103,Solar Power Tracker,Solar Power Tracker,GEM location ID,GEM location ID,,GEM generated ID unique for each project,,L1+11 digits
+2104,Solar Power Tracker,Solar Power Tracker,GEM phase ID,GEM phase ID,,GEM generated ID unique for each phase,,G1+11 digits
+2105,Solar Power Tracker,Solar Power Tracker,Wiki URL,Wiki URL,,"URL of existing, footnoted factsheet GEM.wiki page",,n/a
+2106,Wind Power Tracker,Wind Power Tracker,Date Last Researched,Date Last Researched,,Date that this project was last researched by the researcher,,yyyy/mm/dd
+2107,Wind Power Tracker,Wind Power Tracker,Country/Area,Country/Area,,Country/Area the project is located in (Unabbreviated),,n/a
+2108,Wind Power Tracker,Wind Power Tracker,Project Name,Project Name,,Commonly used name,,n/a
+2109,Wind Power Tracker,Wind Power Tracker,Phase Name,Phase Name,,Common name of the project phase,,n/a
+2110,Wind Power Tracker,Wind Power Tracker,Project Name in Local Language / Script,Project Name in Local Language / Script,,Commonly used name in the locally used script,,n/a
+2111,Wind Power Tracker,Wind Power Tracker,Other Name(s),Other Name(s),,"Alternative names, including the name in local script",,n/a
+2112,Wind Power Tracker,Wind Power Tracker,Capacity (MW),Capacity (MW),,"Nameplate capacity, or best available data, of the phase in megawatts",,MW
+2113,Wind Power Tracker,Wind Power Tracker,Installation Type,Installation Type,,How the wind turbines are installed,,"onshore, offshore hard mount, offshore floating, offshore mount unknown"
+2114,Wind Power Tracker,Wind Power Tracker,Status,Status,,"Status of the project (operating, construction, pre-construction, announced, shelved, mothballed, retired, cancelled)",,n/a
+2115,Wind Power Tracker,Wind Power Tracker,Start year,Start year,,Year the project is or is expected to be commissioned,,yyyy
+2116,Wind Power Tracker,Wind Power Tracker,Retired year,Retired year,,Year the plant is taken offline,,yyyy
+2117,Wind Power Tracker,Wind Power Tracker,Operator,Operator,,The company that operates the project,,n/a
+2118,Wind Power Tracker,Wind Power Tracker,Operator Name in Local Language / Script,Operator Name in Local Language / Script,,Company name that operates the project in the locally used script,,n/a
+2119,Wind Power Tracker,Wind Power Tracker,Owner,Owner,,The company that directly owns the plant,,n/a
+2120,Wind Power Tracker,Wind Power Tracker,Owner Name in Local Language / Script,Owner Name in Local Language / Script,,Company name that directly owns the project in the locally used script,,n/a
+2121,Wind Power Tracker,Wind Power Tracker,Hydrogen,Hydrogen,,True if a project phase is dedicated for green hydrogen production,,"True, blank"
+2122,Wind Power Tracker,Wind Power Tracker,Associated Storage,Associated Storage,,True if storage is associated with a project phase,,"True, blank"
+2123,Wind Power Tracker,Wind Power Tracker,Latitude,Latitude,,"Latitude, assumed WGS84 (google maps), of the project phase",,decimal degrees
+2124,Wind Power Tracker,Wind Power Tracker,Longitude,Longitude,,"Longitude, assumed WGS84 (google maps), of the project phase",,decimal degrees
+2125,Wind Power Tracker,Wind Power Tracker,Location accuracy,Location accuracy,,"Location is Approximate based on using nearest city or other information in data sources, or Location is Exact when explicitly provided in data source",,"approximate, exact"
+2126,Wind Power Tracker,Wind Power Tracker,City,City,,"City, town, village, or township where project is located",,n/a
+2127,Wind Power Tracker,Wind Power Tracker,Local Area,Local Area,,"County, taluk, or district where project is located",,n/a
+2128,Wind Power Tracker,Wind Power Tracker,Major Area,Major Area,,"Prefecture, district, or municipality where project is located",,n/a
+2129,Wind Power Tracker,Wind Power Tracker,State/Province,State/Province,,Subnational unit where project is located,,n/a
+2130,Wind Power Tracker,Wind Power Tracker,Subregion,Subregion,,Subregion location based on United Nations definition,,n/a
+2131,Wind Power Tracker,Wind Power Tracker,Region,Region,,Region location based on United Nations definition,,n/a
+2132,Wind Power Tracker,Wind Power Tracker,Other IDs (location),Other IDs (location),,Location identifier from external dataset,,n/a
+2133,Wind Power Tracker,Wind Power Tracker,Other IDs (unit/phase),Other IDs (unit/phase),,Unit or Phase identifier from external dataset,,n/a
+2134,Wind Power Tracker,Wind Power Tracker,GEM Location ID,GEM Location ID,,GEM generated ID unique for each project,,L1+11 digits
+2135,Wind Power Tracker,Wind Power Tracker,GEM Phase ID,GEM Phase ID,,GEM generated ID unique for each phase,,G1+11 digits
+2136,Wind Power Tracker,Wind Power Tracker,Wiki URL,Wiki URL,,URL of existing or planned GEM.wiki page,,n/a
+2137,ccd_vector_2017_2023,Ccd Vector,uid,uid,,unique identifier of micro watershed,,
+2138,ccd_vector_2017_2023,Ccd Vector,area_in_ha,area_in_ha,,total area of the micro watershed in hectares (ha),,
+2139,ccd_vector_2017_2023,Ccd Vector,bacode,bacode,,basin code identifying the river basin to which the feature belongs,,
+2140,ccd_vector_2017_2023,Ccd Vector,sbcode,sbcode,,sub-basin code identifying the sub-basin unit within the larger river basin.,,
+2141,ccd_vector_2017_2023,Ccd Vector,wsconc,wsconc,,watershed concatenation code representing the hierarchical reference identifier for the micro watershed.,,
+2142,ccd_vector_2017_2023,Ccd Vector,STATE,STATE,,state in which the micro watershed is located,,
+2143,ccd_vector_2017_2023,Ccd Vector,District,District,,district in which the micro watershed is located,,
+2144,ccd_vector_2017_2023,Ccd Vector,TEHSIL,TEHSIL,,tehsil/block in which the micro watershed is located,,
+2145,ccd_vector_2017_2023,Ccd Vector,Low_Density_2017,Low_Density_2017,,low canopy cover density for 2017,,
+2146,ccd_vector_2017_2023,Ccd Vector,High_Density_2017,High_Density_2017,,high canopy cover density for 2017,,
+2147,ccd_vector_2017_2023,Ccd Vector,Missing_Data_2017,Missing_Data_2017,,missing data area in hectares for 2017,,
+2148,ccd_vector_2017_2023,Ccd Vector,Low_Density_2018,Low_Density_2018,,low canopy cover density for 2018,,
+2149,ccd_vector_2017_2023,Ccd Vector,High_Density_2018,High_Density_2018,,high canopy cover density for 2018,,
+2150,ccd_vector_2017_2023,Ccd Vector,Missing_Data_2018,Missing_Data_2018,,missing data area in hectares for 2018,,
+2151,ccd_vector_2017_2023,Ccd Vector,Low_Density_2019,Low_Density_2019,,low canopy cover density for 2019,,
+2152,ccd_vector_2017_2023,Ccd Vector,High_Density_2019,High_Density_2019,,high canopy cover density for 2019,,
+2153,ccd_vector_2017_2023,Ccd Vector,Missing_Data_2019,Missing_Data_2019,,missing data area in hectares for 2019,,
+2154,ccd_vector_2017_2023,Ccd Vector,Low_Density_2020,Low_Density_2020,,low canopy cover density for 2020,,
+2155,ccd_vector_2017_2023,Ccd Vector,High_Density_2020,High_Density_2020,,high canopy cover density for 2020,,
+2156,ccd_vector_2017_2023,Ccd Vector,Missing_Data_2020,Missing_Data_2020,,missing data area in hectares for 2020,,
+2157,ccd_vector_2017_2023,Ccd Vector,Low_Density_2021,Low_Density_2021,,low canopy cover density for 2021,,
+2158,ccd_vector_2017_2023,Ccd Vector,High_Density_2021,High_Density_2021,,high canopy cover density for 2021,,
+2159,ccd_vector_2017_2023,Ccd Vector,Missing_Data_2021,Missing_Data_2021,,missing data area in hectares for 2021,,
+2160,ccd_vector_2017_2023,Ccd Vector,Low_Density_2022,Low_Density_2022,,low canopy cover density for 2022,,
+2161,ccd_vector_2017_2023,Ccd Vector,High_Density_2022,High_Density_2022,,high canopy cover density for 2022,,
+2162,ccd_vector_2017_2023,Ccd Vector,Missing_Data_2022,Missing_Data_2022,,missing data area in hectares for 2022,,
+2163,ccd_vector_2017_2023,Ccd Vector,Low_Density_2023,Low_Density_2023,,low canopy cover density for 2023,,
+2164,ccd_vector_2017_2023,Ccd Vector,High_Density_2023,High_Density_2023,,high canopy cover density for 2023,,
+2165,ccd_vector_2017_2023,Ccd Vector,Missing_Data_2023,Missing_Data_2023,,missing data area in hectares for 2023,,
+2166,ch_vector_2017_2023,Canopy Height Vector,uid,uid,,unique identifier of micro watershed,,
+2167,ch_vector_2017_2023,Canopy Height Vector,area_in_ha,area_in_ha,,total area of the micro watershed in hectares (ha),,
+2168,ch_vector_2017_2023,Canopy Height Vector,bacode,bacode,,basin code identifying the river basin to which the feature belongs,,
+2169,ch_vector_2017_2023,Canopy Height Vector,sbcode,sbcode,,sub-basin code identifying the sub-basin unit within the larger river basin.,,
+2170,ch_vector_2017_2023,Canopy Height Vector,wsconc,wsconc,,watershed concatenation code representing the hierarchical reference identifier for the micro watershed.,,
+2171,ch_vector_2017_2023,Canopy Height Vector,STATE,STATE,,state in which the micro watershed is located,,
+2172,ch_vector_2017_2023,Canopy Height Vector,District,District,,district in which the micro watershed is located,,
+2173,ch_vector_2017_2023,Canopy Height Vector,TEHSIL,TEHSIL,,tehsil/block in which the micro watershed is located,,
+2174,ch_vector_2017_2023,Canopy Height Vector,Short_Trees_2017,Short_Trees_2017,,Area under short canopy height class in 2017,,
+2175,ch_vector_2017_2023,Canopy Height Vector,Medium_Height_Trees_2017,Medium_Height_Trees_2017,,Area under medium canopy height class in 2017,,
+2176,ch_vector_2017_2023,Canopy Height Vector,Tall_Trees_2017,Tall_Trees_2017,,Area under tall canopy height class in 2017,,
+2177,ch_vector_2017_2023,Canopy Height Vector,Missing_Data_2017,Missing_Data_2017,,Missing Data,,
+2178,ch_vector_2017_2023,Canopy Height Vector,Short_Trees_2018,Short_Trees_2018,,Area under short canopy height class in 2018,,
+2179,ch_vector_2017_2023,Canopy Height Vector,Medium_Height_Trees_2018,Medium_Height_Trees_2018,,Area under medium canopy height class in 2018,,
+2180,ch_vector_2017_2023,Canopy Height Vector,Tall_Trees_2018,Tall_Trees_2018,,Area under tall canopy height class in 2018,,
+2181,ch_vector_2017_2023,Canopy Height Vector,Missing_Data_2018,Missing_Data_2018,,Missing Data,,
+2182,ch_vector_2017_2023,Canopy Height Vector,Short_Trees_2019,Short_Trees_2019,,Area under short canopy height class in 2019,,
+2183,ch_vector_2017_2023,Canopy Height Vector,Medium_Height_Trees_2019,Medium_Height_Trees_2019,,Area under medium canopy height class in 2019,,
+2184,ch_vector_2017_2023,Canopy Height Vector,Tall_Trees_2019,Tall_Trees_2019,,Area under tall canopy height class in 2019,,
+2185,ch_vector_2017_2023,Canopy Height Vector,Missing_Data_2019,Missing_Data_2019,,Missing Data,,
+2186,ch_vector_2017_2023,Canopy Height Vector,Short_Trees_2020,Short_Trees_2020,,Area under short canopy height class in 2020,,
+2187,ch_vector_2017_2023,Canopy Height Vector,Medium_Height_Trees_2020,Medium_Height_Trees_2020,,Area under medium canopy height class in 2020,,
+2188,ch_vector_2017_2023,Canopy Height Vector,Tall_Trees_2020,Tall_Trees_2020,,Area under tall canopy height class in 2020,,
+2189,ch_vector_2017_2023,Canopy Height Vector,Missing_Data_2020,Missing_Data_2020,,Missing Data,,
+2190,ch_vector_2017_2023,Canopy Height Vector,Short_Trees_2021,Short_Trees_2021,,Area under short canopy height class in 2021,,
+2191,ch_vector_2017_2023,Canopy Height Vector,Medium_Height_Trees_2021,Medium_Height_Trees_2021,,Area under medium canopy height class in 2021,,
+2192,ch_vector_2017_2023,Canopy Height Vector,Tall_Trees_2021,Tall_Trees_2021,,Area under tall canopy height class in 2021,,
+2193,ch_vector_2017_2023,Canopy Height Vector,Missing_Data_2021,Missing_Data_2021,,Missing Data,,
+2194,ch_vector_2017_2023,Canopy Height Vector,Short_Trees_2022,Short_Trees_2022,,Area under short canopy height class in 2022,,
+2195,ch_vector_2017_2023,Canopy Height Vector,Medium_Height_Trees_2022,Medium_Height_Trees_2022,,Area under medium canopy height class in 2022,,
+2196,ch_vector_2017_2023,Canopy Height Vector,Tall_Trees_2022,Tall_Trees_2022,,Area under tall canopy height class in 2022,,
+2197,ch_vector_2017_2023,Canopy Height Vector,Missing_Data_2022,Missing_Data_2022,,Missing Data,,
+2198,ch_vector_2017_2023,Canopy Height Vector,Short_Trees_2023,Short_Trees_2023,,Area under short canopy height class in 2023,,
+2199,ch_vector_2017_2023,Canopy Height Vector,Medium_Height_Trees_2023,Medium_Height_Trees_2023,,Area under medium canopy height class in 2023,,
+2200,ch_vector_2017_2023,Canopy Height Vector,Tall_Trees_2023,Tall_Trees_2023,,Area under tall canopy height class in 2023,,
+2201,ch_vector_2017_2023,Canopy Height Vector,Missing_Data_2023,Missing_Data_2023,,Missing Data,,
+2202,tree_cover_change_vector,Tree Overall Change Vector,id,id,,identifier,,
+2203,tree_cover_change_vector,Tree Overall Change Vector,uid,uid,,unique identifier of micro watershed,,
+2204,tree_cover_change_vector,Tree Overall Change Vector,area_in_ha,area_in_ha,,total area of the micro watershed in hectares (ha),,
+2205,tree_cover_change_vector,Tree Overall Change Vector,bacode,bacode,,basin code identifying the river basin to which the feature belongs,,
+2206,tree_cover_change_vector,Tree Overall Change Vector,sbcode,sbcode,,sub-basin code identifying the sub-basin unit within the larger river basin.,,
+2207,tree_cover_change_vector,Tree Overall Change Vector,wsconc,wsconc,,watershed concatenation code representing the hierarchical reference identifier for the micro watershed.,,
+2208,tree_cover_change_vector,Tree Overall Change Vector,Deforestation,Deforestation,,area of tree cover loss,,
+2209,tree_cover_change_vector,Tree Overall Change Vector,Degradation,Degradation,,area of tree degradation,,
+2210,tree_cover_change_vector,Tree Overall Change Vector,No_Change,No_Change,,area where tree cover remain stable,,
+2211,tree_cover_change_vector,Tree Overall Change Vector,Improvement,Improvement,,improvement in tree height or canopy density,,
+2212,tree_cover_change_vector,Tree Overall Change Vector,Afforestation,Afforestation,,tree cover gain ,,
+2213,tree_cover_change_vector,Tree Overall Change Vector,Partially_Degraded,Partially_Degraded,,partially degraded,,
+2214,tree_cover_change_vector,Tree Overall Change Vector,Missing Data,Missing Data,,missing data,,
+2215,facilities_proximity_vector,Facilities Proximity,FID,fid,,Identifier for this published map feature.,,
+2216,facilities_proximity_vector,Facilities Proximity,index,index,,Position of the village in the Core Stack standard boundary table.,,
+2217,facilities_proximity_vector,Facilities Proximity,state_id,state_id,,Census 2011 code identifying this state for joining village data.,,
+2218,facilities_proximity_vector,Facilities Proximity,district_id,district_id,,Census 2011 code identifying this district for joining village data.,,
+2219,facilities_proximity_vector,Facilities Proximity,tehsil_id,tehsil_id,,Census 2011 code identifying this sub-district for joining village data.,,
+2220,facilities_proximity_vector,Facilities Proximity,village_id,village_id,,Census 2011 code identifying this village for joining village data.,,
+2221,facilities_proximity_vector,Facilities Proximity,state_name,state_name,,Name of the state for this village.,,
+2222,facilities_proximity_vector,Facilities Proximity,district_name,district_name,,Name of the district for this village.,,
+2223,facilities_proximity_vector,Facilities Proximity,tehsil_name,tehsil_name,,Name of the tehsil for this village.,,
+2224,facilities_proximity_vector,Facilities Proximity,village_name,village_name,,Name of the village for this village.,,
+2225,facilities_proximity_vector,Facilities Proximity,facilities_status,facilities_status,,Shows whether distances were computed or why no village or facility match was available.,,
+2226,facilities_proximity_vector,Facilities Proximity,l2_essential_education_distance_km,l2_essential_education_distance_km,,"Great-circle distance from the village point to the farthest required service among Primary School, Upper Primary School and Secondary School; lower means the full bundle is nearer.",,
+2227,facilities_proximity_vector,Facilities Proximity,l2_essential_education_selected_l3,l2_essential_education_selected_l3,,Service type that determines the essential education distance for this village.,,
+2228,facilities_proximity_vector,Facilities Proximity,l2_essential_education_selected_l3_label,l2_essential_education_selected_l3_label,,Readable name of the service type that determines the essential education distance.,,
+2229,facilities_proximity_vector,Facilities Proximity,l2_essential_education_facility_uid,l2_essential_education_facility_uid,,Identifier of the facility that determines the essential education distance.,,
+2230,facilities_proximity_vector,Facilities Proximity,l3_school_primary_distance_km,l3_school_primary_distance_km,,Great-circle distance from the village point to the nearest primary school. Useful for comparing local service access; it is not travel distance.,,
+2231,facilities_proximity_vector,Facilities Proximity,l3_school_primary_facility_uid,l3_school_primary_facility_uid,,Identifier of the nearest primary school used for this village distance.,,
+2232,facilities_proximity_vector,Facilities Proximity,l3_school_primary_inside_scope,l3_school_primary_inside_scope,,Whether the nearest primary school lies within the requested area; a nearby service outside it can still be the closest.,,
+2233,facilities_proximity_vector,Facilities Proximity,l3_school_upper_primary_distance_km,l3_school_upper_primary_distance_km,,Great-circle distance from the village point to the nearest upper primary school. Useful for comparing local service access; it is not travel distance.,,
+2234,facilities_proximity_vector,Facilities Proximity,l3_school_upper_primary_facility_uid,l3_school_upper_primary_facility_uid,,Identifier of the nearest upper primary school used for this village distance.,,
+2235,facilities_proximity_vector,Facilities Proximity,l3_school_upper_primary_inside_scope,l3_school_upper_primary_inside_scope,,Whether the nearest upper primary school lies within the requested area; a nearby service outside it can still be the closest.,,
+2236,facilities_proximity_vector,Facilities Proximity,l3_school_secondary_distance_km,l3_school_secondary_distance_km,,Great-circle distance from the village point to the nearest secondary school. Useful for comparing local service access; it is not travel distance.,,
+2237,facilities_proximity_vector,Facilities Proximity,l3_school_secondary_facility_uid,l3_school_secondary_facility_uid,,Identifier of the nearest secondary school used for this village distance.,,
+2238,facilities_proximity_vector,Facilities Proximity,l3_school_secondary_inside_scope,l3_school_secondary_inside_scope,,Whether the nearest secondary school lies within the requested area; a nearby service outside it can still be the closest.,,
+2239,facilities_proximity_vector,Facilities Proximity,l2_higher_education_distance_km,l2_higher_education_distance_km,,"Great-circle distance from the village point to the nearest option among Higher Secondary School, College and University-Type Institution; lower means one option is nearer.",,
+2240,facilities_proximity_vector,Facilities Proximity,l2_higher_education_selected_l3,l2_higher_education_selected_l3,,Service type that determines the higher education distance for this village.,,
+2241,facilities_proximity_vector,Facilities Proximity,l2_higher_education_selected_l3_label,l2_higher_education_selected_l3_label,,Readable name of the service type that determines the higher education distance.,,
+2242,facilities_proximity_vector,Facilities Proximity,l2_higher_education_facility_uid,l2_higher_education_facility_uid,,Identifier of the facility that determines the higher education distance.,,
+2243,facilities_proximity_vector,Facilities Proximity,l3_school_higher_secondary_distance_km,l3_school_higher_secondary_distance_km,,Great-circle distance from the village point to the nearest higher secondary school. Useful for comparing local service access; it is not travel distance.,,
+2244,facilities_proximity_vector,Facilities Proximity,l3_school_higher_secondary_facility_uid,l3_school_higher_secondary_facility_uid,,Identifier of the nearest higher secondary school used for this village distance.,,
+2245,facilities_proximity_vector,Facilities Proximity,l3_school_higher_secondary_inside_scope,l3_school_higher_secondary_inside_scope,,Whether the nearest higher secondary school lies within the requested area; a nearby service outside it can still be the closest.,,
+2246,facilities_proximity_vector,Facilities Proximity,l3_college_distance_km,l3_college_distance_km,,Great-circle distance from the village point to the nearest college. Useful for comparing local service access; it is not travel distance.,,
+2247,facilities_proximity_vector,Facilities Proximity,l3_college_facility_uid,l3_college_facility_uid,,Identifier of the nearest college used for this village distance.,,
+2248,facilities_proximity_vector,Facilities Proximity,l3_college_inside_scope,l3_college_inside_scope,,Whether the nearest college lies within the requested area; a nearby service outside it can still be the closest.,,
+2249,facilities_proximity_vector,Facilities Proximity,l3_universities_distance_km,l3_universities_distance_km,,Great-circle distance from the village point to the nearest university-type institution. Useful for comparing local service access; it is not travel distance.,,
+2250,facilities_proximity_vector,Facilities Proximity,l3_universities_facility_uid,l3_universities_facility_uid,,Identifier of the nearest university-type institution used for this village distance.,,
+2251,facilities_proximity_vector,Facilities Proximity,l3_universities_inside_scope,l3_universities_inside_scope,,Whether the nearest university-type institution lies within the requested area; a nearby service outside it can still be the closest.,,
+2252,facilities_proximity_vector,Facilities Proximity,l2_essential_health_distance_km,l2_essential_health_distance_km,,Great-circle distance from the village point to the farthest required service among Health Sub-Centre and Primary Health Centre; lower means the full bundle is nearer.,,
+2253,facilities_proximity_vector,Facilities Proximity,l2_essential_health_selected_l3,l2_essential_health_selected_l3,,Service type that determines the essential health distance for this village.,,
+2254,facilities_proximity_vector,Facilities Proximity,l2_essential_health_selected_l3_label,l2_essential_health_selected_l3_label,,Readable name of the service type that determines the essential health distance.,,
+2255,facilities_proximity_vector,Facilities Proximity,l2_essential_health_facility_uid,l2_essential_health_facility_uid,,Identifier of the facility that determines the essential health distance.,,
+2256,facilities_proximity_vector,Facilities Proximity,l3_health_sub_cen_distance_km,l3_health_sub_cen_distance_km,,Great-circle distance from the village point to the nearest health sub-centre. Useful for comparing local service access; it is not travel distance.,,
+2257,facilities_proximity_vector,Facilities Proximity,l3_health_sub_cen_facility_uid,l3_health_sub_cen_facility_uid,,Identifier of the nearest health sub-centre used for this village distance.,,
+2258,facilities_proximity_vector,Facilities Proximity,l3_health_sub_cen_inside_scope,l3_health_sub_cen_inside_scope,,Whether the nearest health sub-centre lies within the requested area; a nearby service outside it can still be the closest.,,
+2259,facilities_proximity_vector,Facilities Proximity,l3_health_phc_distance_km,l3_health_phc_distance_km,,Great-circle distance from the village point to the nearest primary health centre. Useful for comparing local service access; it is not travel distance.,,
+2260,facilities_proximity_vector,Facilities Proximity,l3_health_phc_facility_uid,l3_health_phc_facility_uid,,Identifier of the nearest primary health centre used for this village distance.,,
+2261,facilities_proximity_vector,Facilities Proximity,l3_health_phc_inside_scope,l3_health_phc_inside_scope,,Whether the nearest primary health centre lies within the requested area; a nearby service outside it can still be the closest.,,
+2262,facilities_proximity_vector,Facilities Proximity,l2_advanced_health_distance_km,l2_advanced_health_distance_km,,"Great-circle distance from the village point to the nearest option among Community Health Centre, District Hospital and Specialist Or Tertiary Hospital; lower means one option is nearer.",,
+2263,facilities_proximity_vector,Facilities Proximity,l2_advanced_health_selected_l3,l2_advanced_health_selected_l3,,Service type that determines the advanced health distance for this village.,,
+2264,facilities_proximity_vector,Facilities Proximity,l2_advanced_health_selected_l3_label,l2_advanced_health_selected_l3_label,,Readable name of the service type that determines the advanced health distance.,,
+2265,facilities_proximity_vector,Facilities Proximity,l2_advanced_health_facility_uid,l2_advanced_health_facility_uid,,Identifier of the facility that determines the advanced health distance.,,
+2266,facilities_proximity_vector,Facilities Proximity,l3_health_chc_distance_km,l3_health_chc_distance_km,,Great-circle distance from the village point to the nearest community health centre. Useful for comparing local service access; it is not travel distance.,,
+2267,facilities_proximity_vector,Facilities Proximity,l3_health_chc_facility_uid,l3_health_chc_facility_uid,,Identifier of the nearest community health centre used for this village distance.,,
+2268,facilities_proximity_vector,Facilities Proximity,l3_health_chc_inside_scope,l3_health_chc_inside_scope,,Whether the nearest community health centre lies within the requested area; a nearby service outside it can still be the closest.,,
+2269,facilities_proximity_vector,Facilities Proximity,l3_health_dis_h_distance_km,l3_health_dis_h_distance_km,,Great-circle distance from the village point to the nearest district hospital. Useful for comparing local service access; it is not travel distance.,,
+2270,facilities_proximity_vector,Facilities Proximity,l3_health_dis_h_facility_uid,l3_health_dis_h_facility_uid,,Identifier of the nearest district hospital used for this village distance.,,
+2271,facilities_proximity_vector,Facilities Proximity,l3_health_dis_h_inside_scope,l3_health_dis_h_inside_scope,,Whether the nearest district hospital lies within the requested area; a nearby service outside it can still be the closest.,,
+2272,facilities_proximity_vector,Facilities Proximity,l3_health_s_t_h_distance_km,l3_health_s_t_h_distance_km,,Great-circle distance from the village point to the nearest specialist or tertiary hospital. Useful for comparing local service access; it is not travel distance.,,
+2273,facilities_proximity_vector,Facilities Proximity,l3_health_s_t_h_facility_uid,l3_health_s_t_h_facility_uid,,Identifier of the nearest specialist or tertiary hospital used for this village distance.,,
+2274,facilities_proximity_vector,Facilities Proximity,l3_health_s_t_h_inside_scope,l3_health_s_t_h_inside_scope,,Whether the nearest specialist or tertiary hospital lies within the requested area; a nearby service outside it can still be the closest.,,
+2275,facilities_proximity_vector,Facilities Proximity,l2_essential_services_distance_km,l2_essential_services_distance_km,,Great-circle distance from the village point to the nearest public distribution system; lower means that service is nearer.,,
+2276,facilities_proximity_vector,Facilities Proximity,l2_essential_services_selected_l3,l2_essential_services_selected_l3,,Service type that determines the essential services distance for this village.,,
+2277,facilities_proximity_vector,Facilities Proximity,l2_essential_services_selected_l3_label,l2_essential_services_selected_l3_label,,Readable name of the service type that determines the essential services distance.,,
+2278,facilities_proximity_vector,Facilities Proximity,l2_essential_services_facility_uid,l2_essential_services_facility_uid,,Identifier of the facility that determines the essential services distance.,,
+2279,facilities_proximity_vector,Facilities Proximity,l3_pds_distance_km,l3_pds_distance_km,,Great-circle distance from the village point to the nearest public distribution system. Useful for comparing local service access; it is not travel distance.,,
+2280,facilities_proximity_vector,Facilities Proximity,l3_pds_facility_uid,l3_pds_facility_uid,,Identifier of the nearest public distribution system used for this village distance.,,
+2281,facilities_proximity_vector,Facilities Proximity,l3_pds_inside_scope,l3_pds_inside_scope,,Whether the nearest public distribution system lies within the requested area; a nearby service outside it can still be the closest.,,
+2282,facilities_proximity_vector,Facilities Proximity,l2_financial_inclusion_distance_km,l2_financial_inclusion_distance_km,,"Great-circle distance from the village point to the farthest required service among Common Service Centre, Bank Mitra, Bank Branch and Bank ATM; lower means the full bundle is nearer.",,
+2283,facilities_proximity_vector,Facilities Proximity,l2_financial_inclusion_selected_l3,l2_financial_inclusion_selected_l3,,Service type that determines the financial inclusion distance for this village.,,
+2284,facilities_proximity_vector,Facilities Proximity,l2_financial_inclusion_selected_l3_label,l2_financial_inclusion_selected_l3_label,,Readable name of the service type that determines the financial inclusion distance.,,
+2285,facilities_proximity_vector,Facilities Proximity,l2_financial_inclusion_facility_uid,l2_financial_inclusion_facility_uid,,Identifier of the facility that determines the financial inclusion distance.,,
+2286,facilities_proximity_vector,Facilities Proximity,l3_csc_distance_km,l3_csc_distance_km,,Great-circle distance from the village point to the nearest common service centre. Useful for comparing local service access; it is not travel distance.,,
+2287,facilities_proximity_vector,Facilities Proximity,l3_csc_facility_uid,l3_csc_facility_uid,,Identifier of the nearest common service centre used for this village distance.,,
+2288,facilities_proximity_vector,Facilities Proximity,l3_csc_inside_scope,l3_csc_inside_scope,,Whether the nearest common service centre lies within the requested area; a nearby service outside it can still be the closest.,,
+2289,facilities_proximity_vector,Facilities Proximity,l3_bank_mitra_distance_km,l3_bank_mitra_distance_km,,Great-circle distance from the village point to the nearest bank mitra. Useful for comparing local service access; it is not travel distance.,,
+2290,facilities_proximity_vector,Facilities Proximity,l3_bank_mitra_facility_uid,l3_bank_mitra_facility_uid,,Identifier of the nearest bank mitra used for this village distance.,,
+2291,facilities_proximity_vector,Facilities Proximity,l3_bank_mitra_inside_scope,l3_bank_mitra_inside_scope,,Whether the nearest bank mitra lies within the requested area; a nearby service outside it can still be the closest.,,
+2292,facilities_proximity_vector,Facilities Proximity,l3_bank_branch_distance_km,l3_bank_branch_distance_km,,Great-circle distance from the village point to the nearest bank branch. Useful for comparing local service access; it is not travel distance.,,
+2293,facilities_proximity_vector,Facilities Proximity,l3_bank_branch_facility_uid,l3_bank_branch_facility_uid,,Identifier of the nearest bank branch used for this village distance.,,
+2294,facilities_proximity_vector,Facilities Proximity,l3_bank_branch_inside_scope,l3_bank_branch_inside_scope,,Whether the nearest bank branch lies within the requested area; a nearby service outside it can still be the closest.,,
+2295,facilities_proximity_vector,Facilities Proximity,l3_bank_atm_distance_km,l3_bank_atm_distance_km,,Great-circle distance from the village point to the nearest bank atm. Useful for comparing local service access; it is not travel distance.,,
+2296,facilities_proximity_vector,Facilities Proximity,l3_bank_atm_facility_uid,l3_bank_atm_facility_uid,,Identifier of the nearest bank atm used for this village distance.,,
+2297,facilities_proximity_vector,Facilities Proximity,l3_bank_atm_inside_scope,l3_bank_atm_inside_scope,,Whether the nearest bank atm lies within the requested area; a nearby service outside it can still be the closest.,,
+2298,facilities_proximity_vector,Facilities Proximity,l2_apmc_access_distance_km,l2_apmc_access_distance_km,,Great-circle distance from the village point to the nearest option among APMC and Agriculture Markets And Trading; lower means one option is nearer.,,
+2299,facilities_proximity_vector,Facilities Proximity,l2_apmc_access_selected_l3,l2_apmc_access_selected_l3,,Service type that determines the apmc and market distance for this village.,,
+2300,facilities_proximity_vector,Facilities Proximity,l2_apmc_access_selected_l3_label,l2_apmc_access_selected_l3_label,,Readable name of the service type that determines the apmc and market distance.,,
+2301,facilities_proximity_vector,Facilities Proximity,l2_apmc_access_facility_uid,l2_apmc_access_facility_uid,,Identifier of the facility that determines the apmc and market distance.,,
+2302,facilities_proximity_vector,Facilities Proximity,l3_apmc_distance_km,l3_apmc_distance_km,,Great-circle distance from the village point to the nearest apmc. Useful for comparing local service access; it is not travel distance.,,
+2303,facilities_proximity_vector,Facilities Proximity,l3_apmc_facility_uid,l3_apmc_facility_uid,,Identifier of the nearest apmc used for this village distance.,,
+2304,facilities_proximity_vector,Facilities Proximity,l3_apmc_inside_scope,l3_apmc_inside_scope,,Whether the nearest apmc lies within the requested area; a nearby service outside it can still be the closest.,,
+2305,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_markets_trading_distance_km,l3_agri_industry_markets_trading_distance_km,,Great-circle distance from the village point to the nearest agriculture markets and trading. Useful for comparing local service access; it is not travel distance.,,
+2306,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_markets_trading_facility_uid,l3_agri_industry_markets_trading_facility_uid,,Identifier of the nearest agriculture markets and trading used for this village distance.,,
+2307,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_markets_trading_inside_scope,l3_agri_industry_markets_trading_inside_scope,,Whether the nearest agriculture markets and trading lies within the requested area; a nearby service outside it can still be the closest.,,
+2308,facilities_proximity_vector,Facilities Proximity,l2_post_harvest_distance_km,l2_post_harvest_distance_km,,"Great-circle distance from the village point to the nearest option among Storage And Warehousing, Distribution Utilities, Agriculture Processing and Industrial Manufacturing; lower means one option is nearer.",,
+2309,facilities_proximity_vector,Facilities Proximity,l2_post_harvest_selected_l3,l2_post_harvest_selected_l3,,Service type that determines the post-harvest infrastructure distance for this village.,,
+2310,facilities_proximity_vector,Facilities Proximity,l2_post_harvest_selected_l3_label,l2_post_harvest_selected_l3_label,,Readable name of the service type that determines the post-harvest infrastructure distance.,,
+2311,facilities_proximity_vector,Facilities Proximity,l2_post_harvest_facility_uid,l2_post_harvest_facility_uid,,Identifier of the facility that determines the post-harvest infrastructure distance.,,
+2312,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_storage_warehousing_distance_km,l3_agri_industry_storage_warehousing_distance_km,,Great-circle distance from the village point to the nearest storage and warehousing. Useful for comparing local service access; it is not travel distance.,,
+2313,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_storage_warehousing_facility_uid,l3_agri_industry_storage_warehousing_facility_uid,,Identifier of the nearest storage and warehousing used for this village distance.,,
+2314,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_storage_warehousing_inside_scope,l3_agri_industry_storage_warehousing_inside_scope,,Whether the nearest storage and warehousing lies within the requested area; a nearby service outside it can still be the closest.,,
+2315,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_distribution_utilities_distance_km,l3_agri_industry_distribution_utilities_distance_km,,Great-circle distance from the village point to the nearest distribution utilities. Useful for comparing local service access; it is not travel distance.,,
+2316,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_distribution_utilities_facility_uid,l3_agri_industry_distribution_utilities_facility_uid,,Identifier of the nearest distribution utilities used for this village distance.,,
+2317,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_distribution_utilities_inside_scope,l3_agri_industry_distribution_utilities_inside_scope,,Whether the nearest distribution utilities lies within the requested area; a nearby service outside it can still be the closest.,,
+2318,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_agri_processing_distance_km,l3_agri_industry_agri_processing_distance_km,,Great-circle distance from the village point to the nearest agriculture processing. Useful for comparing local service access; it is not travel distance.,,
+2319,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_agri_processing_facility_uid,l3_agri_industry_agri_processing_facility_uid,,Identifier of the nearest agriculture processing used for this village distance.,,
+2320,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_agri_processing_inside_scope,l3_agri_industry_agri_processing_inside_scope,,Whether the nearest agriculture processing lies within the requested area; a nearby service outside it can still be the closest.,,
+2321,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_industrial_manufacturing_distance_km,l3_agri_industry_industrial_manufacturing_distance_km,,Great-circle distance from the village point to the nearest industrial manufacturing. Useful for comparing local service access; it is not travel distance.,,
+2322,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_industrial_manufacturing_facility_uid,l3_agri_industry_industrial_manufacturing_facility_uid,,Identifier of the nearest industrial manufacturing used for this village distance.,,
+2323,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_industrial_manufacturing_inside_scope,l3_agri_industry_industrial_manufacturing_inside_scope,,Whether the nearest industrial manufacturing lies within the requested area; a nearby service outside it can still be the closest.,,
+2324,facilities_proximity_vector,Facilities Proximity,l2_cooperative_distance_km,l2_cooperative_distance_km,,Great-circle distance from the village point to the nearest cooperatives and societies; lower means that service is nearer.,,
+2325,facilities_proximity_vector,Facilities Proximity,l2_cooperative_selected_l3,l2_cooperative_selected_l3,,Service type that determines the cooperative distance for this village.,,
+2326,facilities_proximity_vector,Facilities Proximity,l2_cooperative_selected_l3_label,l2_cooperative_selected_l3_label,,Readable name of the service type that determines the cooperative distance.,,
+2327,facilities_proximity_vector,Facilities Proximity,l2_cooperative_facility_uid,l2_cooperative_facility_uid,,Identifier of the facility that determines the cooperative distance.,,
+2328,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_co_operatives_societies_distance_km,l3_agri_industry_co_operatives_societies_distance_km,,Great-circle distance from the village point to the nearest cooperatives and societies. Useful for comparing local service access; it is not travel distance.,,
+2329,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_co_operatives_societies_facility_uid,l3_agri_industry_co_operatives_societies_facility_uid,,Identifier of the nearest cooperatives and societies used for this village distance.,,
+2330,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_co_operatives_societies_inside_scope,l3_agri_industry_co_operatives_societies_inside_scope,,Whether the nearest cooperatives and societies lies within the requested area; a nearby service outside it can still be the closest.,,
+2331,facilities_proximity_vector,Facilities Proximity,l2_livestock_distance_km,l2_livestock_distance_km,,Great-circle distance from the village point to the nearest dairy and animal husbandry; lower means that service is nearer.,,
+2332,facilities_proximity_vector,Facilities Proximity,l2_livestock_selected_l3,l2_livestock_selected_l3,,Service type that determines the livestock support distance for this village.,,
+2333,facilities_proximity_vector,Facilities Proximity,l2_livestock_selected_l3_label,l2_livestock_selected_l3_label,,Readable name of the service type that determines the livestock support distance.,,
+2334,facilities_proximity_vector,Facilities Proximity,l2_livestock_facility_uid,l2_livestock_facility_uid,,Identifier of the facility that determines the livestock support distance.,,
+2335,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_dairy_animal_husbandry_distance_km,l3_agri_industry_dairy_animal_husbandry_distance_km,,Great-circle distance from the village point to the nearest dairy and animal husbandry. Useful for comparing local service access; it is not travel distance.,,
+2336,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_dairy_animal_husbandry_facility_uid,l3_agri_industry_dairy_animal_husbandry_facility_uid,,Identifier of the nearest dairy and animal husbandry used for this village distance.,,
+2337,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_dairy_animal_husbandry_inside_scope,l3_agri_industry_dairy_animal_husbandry_inside_scope,,Whether the nearest dairy and animal husbandry lies within the requested area; a nearby service outside it can still be the closest.,,
+2338,facilities_proximity_vector,Facilities Proximity,l2_agri_support_infra_distance_km,l2_agri_support_infra_distance_km,,Great-circle distance from the village point to the nearest agriculture support infrastructure; lower means that service is nearer.,,
+2339,facilities_proximity_vector,Facilities Proximity,l2_agri_support_infra_selected_l3,l2_agri_support_infra_selected_l3,,Service type that determines the agriculture support infrastructure distance for this village.,,
+2340,facilities_proximity_vector,Facilities Proximity,l2_agri_support_infra_selected_l3_label,l2_agri_support_infra_selected_l3_label,,Readable name of the service type that determines the agriculture support infrastructure distance.,,
+2341,facilities_proximity_vector,Facilities Proximity,l2_agri_support_infra_facility_uid,l2_agri_support_infra_facility_uid,,Identifier of the facility that determines the agriculture support infrastructure distance.,,
+2342,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_agri_support_infrastructure_distance_km,l3_agri_industry_agri_support_infrastructure_distance_km,,Great-circle distance from the village point to the nearest agriculture support infrastructure. Useful for comparing local service access; it is not travel distance.,,
+2343,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_agri_support_infrastructure_facility_uid,l3_agri_industry_agri_support_infrastructure_facility_uid,,Identifier of the nearest agriculture support infrastructure used for this village distance.,,
+2344,facilities_proximity_vector,Facilities Proximity,l3_agri_industry_agri_support_infrastructure_inside_scope,l3_agri_industry_agri_support_infrastructure_inside_scope,,Whether the nearest agriculture support infrastructure lies within the requested area; a nearby service outside it can still be the closest.,,
+2345,facilities_proximity_vector,Facilities Proximity,facilities_layer_kind,facilities_layer_kind,,,,
+2346,facilities_proximity_vector,Facilities Proximity,title,title,,,,
+2347,livestocks_vector,cs_village_livestock_census_20,index,index,,Row index,,
+2348,livestocks_vector,cs_village_livestock_census_20,state_id,state_id,,Census 2011 State ID,,
+2349,livestocks_vector,cs_village_livestock_census_20,district_id,district_id,,Census 2011 District ID,,
+2350,livestocks_vector,cs_village_livestock_census_20,tehsil_id,tehsil_id,,Census 2011 sub-district ID,,
+2351,livestocks_vector,cs_village_livestock_census_20,village_id,village_id,,Census 2011 Village ID,,
+2352,livestocks_vector,cs_village_livestock_census_20,state_name,state_name,,State name,,
+2353,livestocks_vector,cs_village_livestock_census_20,district_name,district_name,,District name,,
+2354,livestocks_vector,cs_village_livestock_census_20,tehsil_name,tehsil_name,,Tehsil name,,
+2355,livestocks_vector,cs_village_livestock_census_20,village_name,village_name,,Village Name,,
+2356,livestocks_vector,cs_village_livestock_census_20,livestock_status,livestock_status,,"Village data availability: matched, no village id available, no data available for this village",,
+2357,livestocks_vector,cs_village_livestock_census_20,all_livestock_total,all_livestock_total,,"Livestocks (Cattles, Buffalo, Sheeps, Goats, Pigs) count",,
+2358,livestocks_vector,cs_village_livestock_census_20,large_animals_total,large_animals_total,,"Large Animals (Cattles, Buffalo) count.",,
+2359,livestocks_vector,cs_village_livestock_census_20,cattle_total,cattle_total,,Cattles count,,
+2360,livestocks_vector,cs_village_livestock_census_20,cattle_female,cattle_female,,Female Cattle count,,
+2361,livestocks_vector,cs_village_livestock_census_20,cattle_male,cattle_male,,Male Cattle count,,
+2362,livestocks_vector,cs_village_livestock_census_20,buffalo_total,buffalo_total,,Buffalos count,,
+2363,livestocks_vector,cs_village_livestock_census_20,buffalo_female,buffalo_female,,Female Buffalo count,,
+2364,livestocks_vector,cs_village_livestock_census_20,buffalo_male,buffalo_male,,Male Buffalo count,,
+2365,livestocks_vector,cs_village_livestock_census_20,small_animals_total,small_animals_total,,"Small Animals (Sheeps, Goats, Pigs) count",,
+2366,livestocks_vector,cs_village_livestock_census_20,sheep_total,sheep_total,,Sheeps count,,
+2367,livestocks_vector,cs_village_livestock_census_20,sheep_female,sheep_female,,Female Sheep count,,
+2368,livestocks_vector,cs_village_livestock_census_20,sheep_male,sheep_male,,Male Sheep count,,
+2369,livestocks_vector,cs_village_livestock_census_20,goat_total,goat_total,,Goats count,,
+2370,livestocks_vector,cs_village_livestock_census_20,goat_female,goat_female,,Female Goat count,,
+2371,livestocks_vector,cs_village_livestock_census_20,goat_male,goat_male,,Male Goat count,,
+2372,livestocks_vector,cs_village_livestock_census_20,pig_total,pig_total,,Pigs Count,,
+2373,livestocks_vector,cs_village_livestock_census_20,pig_female,pig_female,,Female Pig count,,
+2374,livestocks_vector,cs_village_livestock_census_20,pig_male,pig_male,,Male Pig count,,
+2375,livestocks_vector,cs_village_livestock_census_20,FID,fid,,Feature identifier,,
