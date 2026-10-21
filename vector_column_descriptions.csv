@@ -52,24 +52,24 @@
 51,aquifer_vector,Aquifer,y_value,y_value,,base weights assigned to each criteria in aquifer assessment,,dimensionless
 52,aquifer_vector,Aquifer,Lithology_,lithology_,,lithology type,,NA
 53,aquifer_vector,Aquifer,Major_Aqui,major_aqui,,major aquifer,,NA
-54,aquifer_vector,Aquifer,,Principal_,,name of the dominant Principal Aquifer rock formation present within the micro-watershed,,
-55,aquifer_vector,Aquifer,,total_weighted_yield,,area-weighted average specific yield across all principal aquifer rock types,,
-56,aquifer_vector,Aquifer,,yeild__,,specific yield (in %),,
-57,aquifer_vector,Aquifer,,principle_aq_Alluvium_percent,,percentage share of the micro-watershed area occupied by Alluvium,,
-58,aquifer_vector,Aquifer,,principle_aq_Banded Gneissic Complex_percent,,percentage share of the micro-watershed area occupied by Banded Gneissic Complex,,
-59,aquifer_vector,Aquifer,,principle_aq_Basalt_percent,,percentage share of the micro-watershed area occupied by Basalt,,
-60,aquifer_vector,Aquifer,,principle_aq_Charnockite_percent,,percentage share of the micro-watershed area occupied by Charnockite,,
-61,aquifer_vector,Aquifer,,principle_aq_Gneiss_percent,,percentage share of the micro-watershed area occupied by Gneiss,,
-62,aquifer_vector,Aquifer,,principle_aq_Granite_percent,,percentage share of the micro-watershed area occupied by Granite,,
-63,aquifer_vector,Aquifer,,principle_aq_Intrusive_percent,,percentage share of the micro-watershed area occupied by Intrusive rocks,,
-64,aquifer_vector,Aquifer,,principle_aq_Khondalite_percent,,percentage share of the micro-watershed area occupied by Khondalite,,
-65,aquifer_vector,Aquifer,,principle_aq_Laterite_percent,,percentage share of the micro-watershed area occupied by Laterite,,
-66,aquifer_vector,Aquifer,,principle_aq_Limestone_percent,,percentage share of the micro-watershed area occupied by Limestone,,
-67,aquifer_vector,Aquifer,,principle_aq_None_percent,,percentage share of the micro-watershed area with no mapped or unclassified principal aquifer data,,
-68,aquifer_vector,Aquifer,,principle_aq_Quartzite_percent,,percentage share of the micro-watershed area occupied by Quartzite,,
-69,aquifer_vector,Aquifer,,principle_aq_Sandstone_percent,,percentage share of the micro-watershed area occupied by Sandstone,,
-70,aquifer_vector,Aquifer,,principle_aq_Schist_percent,,percentage share of the micro-watershed area occupied by Schist,,
-71,aquifer_vector,Aquifer,,principle_aq_Shale_percent,,percentage share of the micro-watershed area occupied by Shale,,
+54,aquifer_vector,Aquifer,Principal_,Principal_,,name of the dominant Principal Aquifer rock formation present within the micro-watershed,,
+55,aquifer_vector,Aquifer,total_weighted_yield,total_weighted_yield,,area-weighted average specific yield across all principal aquifer rock types,,
+56,aquifer_vector,Aquifer,yeild__,yeild__,,specific yield (in %),,
+57,aquifer_vector,Aquifer,principle_aq_Alluvium_percent,principle_aq_Alluvium_percent,,percentage share of the micro-watershed area occupied by Alluvium,,
+58,aquifer_vector,Aquifer,principle_aq_Banded Gneissic Complex_percent,principle_aq_Banded Gneissic Complex_percent,,percentage share of the micro-watershed area occupied by Banded Gneissic Complex,,
+59,aquifer_vector,Aquifer,principle_aq_Basalt_percent,principle_aq_Basalt_percent,,percentage share of the micro-watershed area occupied by Basalt,,
+60,aquifer_vector,Aquifer,principle_aq_Charnockite_percent,principle_aq_Charnockite_percent,,percentage share of the micro-watershed area occupied by Charnockite,,
+61,aquifer_vector,Aquifer,principle_aq_Gneiss_percent,principle_aq_Gneiss_percent,,percentage share of the micro-watershed area occupied by Gneiss,,
+62,aquifer_vector,Aquifer,principle_aq_Granite_percent,principle_aq_Granite_percent,,percentage share of the micro-watershed area occupied by Granite,,
+63,aquifer_vector,Aquifer,principle_aq_Intrusive_percent,principle_aq_Intrusive_percent,,percentage share of the micro-watershed area occupied by Intrusive rocks,,
+64,aquifer_vector,Aquifer,principle_aq_Khondalite_percent,principle_aq_Khondalite_percent,,percentage share of the micro-watershed area occupied by Khondalite,,
+65,aquifer_vector,Aquifer,principle_aq_Laterite_percent,principle_aq_Laterite_percent,,percentage share of the micro-watershed area occupied by Laterite,,
+66,aquifer_vector,Aquifer,principle_aq_Limestone_percent,principle_aq_Limestone_percent,,percentage share of the micro-watershed area occupied by Limestone,,
+67,aquifer_vector,Aquifer,principle_aq_None_percent,principle_aq_None_percent,,percentage share of the micro-watershed area with no mapped or unclassified principal aquifer data,,
+68,aquifer_vector,Aquifer,principle_aq_Quartzite_percent,principle_aq_Quartzite_percent,,percentage share of the micro-watershed area occupied by Quartzite,,
+69,aquifer_vector,Aquifer,principle_aq_Sandstone_percent,principle_aq_Sandstone_percent,,percentage share of the micro-watershed area occupied by Sandstone,,
+70,aquifer_vector,Aquifer,principle_aq_Schist_percent,principle_aq_Schist_percent,,percentage share of the micro-watershed area occupied by Schist,,
+71,aquifer_vector,Aquifer,principle_aq_Shale_percent,principle_aq_Shale_percent,,percentage share of the micro-watershed area occupied by Shale,,
 72,drainage_lines,Drainage,end_node,end_node,,unique identifier for the downstream point of drainage lines,,NA
 73,drainage_lines,Drainage,ORDER,order,,Strahler order of stream within a network,,NA
 74,drainage_lines,Drainage,stream_typ,stream_typ,,stream type: start or intermediate,,NA
@@ -220,9 +220,9 @@ start=0, intermediate=1",,NA
 218,change_vector_CropIntensity,Change Detection Vector,id,id,,id,,NA
 219,change_vector_CropIntensity,Change Detection Vector,system:index,system:index,,,,NA
 220,change_vector_CropIntensity,Change Detection Vector,do_si,do_si,,Double Cropping to Single Cropping,,ha
-221,change_vector_CropIntensity,Change Detection Vector,,si_si,,Single Cropping to Single Cropping,,
-222,change_vector_CropIntensity,Change Detection Vector,,do_do,,Double Cropping to Double Cropping,,
-223,change_vector_CropIntensity,Change Detection Vector,,tr_tr,,Tripple/annual/perennial Cropping to Tripple/annual/perennial Cropping,,
+221,change_vector_CropIntensity,Change Detection Vector,si_si,si_si,,Single Cropping to Single Cropping,,
+222,change_vector_CropIntensity,Change Detection Vector,do_do,do_do,,Double Cropping to Double Cropping,,
+223,change_vector_CropIntensity,Change Detection Vector,tr_tr,tr_tr,,Tripple/annual/perennial Cropping to Tripple/annual/perennial Cropping,,
 224,change_vector_Deforestation,Change Detection Vector,fo_fa,fo_fa,,Trees to Crops,,ha
 225,change_vector_Deforestation,Change Detection Vector,uid,uid,,unique identifier,,NA
 226,change_vector_Deforestation,Change Detection Vector,fo_ba,fo_ba,,Trees to Barren ,,ha
@@ -679,9 +679,9 @@ start=0, intermediate=1",,NA
 677,lulcXplain_vector,Terrain LULC,id,id,,id,,NA
 678,lulcXplain_vector,Terrain LULC,system:index,system:index,,,,NA
 679,lulcXplain_vector,Terrain LULC,triple_crop,triple_cro,,Percentage of plain area in the micro-watershed that has tripple/annual/perennial cropping,,NA
-680,lulcXplain_vector,Terrain LULC,,bacode,,basin area code ,,
-681,lulcXplain_vector,Terrain LULC,,sbcode,,sub-basin code,,
-682,lulcXplain_vector,Terrain LULC,,wsconc,,Watershed code,,
+680,lulcXplain_vector,Terrain LULC,bacode,bacode,,basin area code ,,
+681,lulcXplain_vector,Terrain LULC,sbcode,sbcode,,sub-basin code,,
+682,lulcXplain_vector,Terrain LULC,wsconc,wsconc,,Watershed code,,
 683,terrain_clusters,Terrain Vector,hill_slopes_area,hill_slopes_area,,hill slopes area percent ,,percent
 684,terrain_clusters,Terrain Vector,uid,uid,,unique identifier,,NA
 685,terrain_clusters,Terrain Vector,slopy_area,slopy_area,,slopy area percent ,,percent
@@ -2047,8 +2047,8 @@ start=0, intermediate=1",,NA
 2042,tree_in_grassland_vector,Tree in Grassland,tree_in_tree_in_shrub_to_kharif_rabi_zaid_water_area_in_ha,tree_in_tree_in_shrub_to_kharif_rabi_zaid_water_area_in_ha,,"area of tree-in-shrub-tree cover that has transitioned to water across Kharif, Rabi, and Zaid seasons",,ha
 2043,tree_in_grassland_vector,Tree in Grassland,tree_in_tree_in_shrub_to_kharif_water_area_in_ha,tree_in_tree_in_shrub_to_kharif_water_area_in_ha,,area of tree-in-shrub-tree cover that has transitioned to water in Kharif season,,ha
 2044,tree_in_grassland_vector,Tree in Grassland,tree_loss_in_tree_in_shrub_area_in_ha,tree_loss_in_tree_in_shrub_area_in_ha,,area where tree cover has been lost within the tree-in-shrub-tree zone,,ha
-2045,tree_in_grassland_vector,Tree in Grassland,uid,tree_in_tree_in_shrub_to_shrubs_area_in_ha,,area of tree-in-shrub-tree cover that has transitioned to shrubs,,NA
-2046,tree_in_grassland_vector,Tree in Grassland,,tree_in_tree_in_shrub_to_trees_area_in_ha,,area of tree-in-shrub-tree cover that has transitioned to trees,,
+2045,tree_in_grassland_vector,Tree in Grassland,tree_in_tree_in_shrub_to_shrubs_area_in_ha,tree_in_tree_in_shrub_to_shrubs_area_in_ha,,area of tree-in-shrub-tree cover that has transitioned to shrubs,,NA
+2046,tree_in_grassland_vector,Tree in Grassland,tree_in_tree_in_shrub_to_trees_area_in_ha,tree_in_tree_in_shrub_to_trees_area_in_ha,,area of tree-in-shrub-tree cover that has transitioned to trees,,
 2047,forest_fire_vector,Forest Fire,fire_count_per_year,fire_count_per_year,,Number of fire detections per year,,count/year
 2048,forest_fire_vector,Forest Fire,fire_frp_max,fire_frp_max,,Peak fire intensity,,MW
 2049,forest_fire_vector,Forest Fire,fire_frp_mean,fire_frp_mean,,Mean fire intensity,,MW
@@ -2356,30 +2356,30 @@ start=0, intermediate=1",,NA
 2351,livestocks_vector,cs_village_livestock_census_20,pig_female,pig_female,,Female Pig count,,
 2352,livestocks_vector,cs_village_livestock_census_20,pig_male,pig_male,,Male Pig count,,
 2353,livestocks_vector,cs_village_livestock_census_20,FID,fid,,Feature identifier,,
-2354,lcw_conflict_vector,LCW Conflict,,Date of publish,,date of publish,,
-2355,lcw_conflict_vector,LCW Conflict,,id,,identifier,,
-2356,lcw_conflict_vector,LCW Conflict,,Link to conflict,,URL link to the conflict,,
-2357,lcw_conflict_vector,LCW Conflict,,Title of Conflict,,title / headline of the conflict,,
-2358,lcw_conflict_vector,LCW Conflict,,uid,,unique identifier,,
-2359,restoration_vector,Restoration Vector,,uid,,unique identifier,,
-2360,restoration_vector,Restoration Vector,,area_in_ha,,area in hectares,,
-2361,restoration_vector,Restoration Vector,,Excluded Areas,,areas that are excluded from restoration,,
-2362,restoration_vector,Restoration Vector,,Mosaic Restoration,,area of land restored using a patchwork approach,,
-2363,restoration_vector,Restoration Vector,,Protection,,area that falls under protection measures,,
-2364,restoration_vector,Restoration Vector,,Wide-scale Restoration,,area of land involved in broad scale restoration,,
-2365,lulcXslope_vector,terrain_lulc,,LxS_cluste,,lulc x plain cluster id,,
-2366,lulcXslope_vector,terrain_lulc,,area_in_ha,,Area of micro-watershed in hectares,,
-2367,lulcXslope_vector,terrain_lulc,,bacode,,Basin code ,,
-2368,lulcXslope_vector,terrain_lulc,,barren,,Percentage of slope area in the micro-watershed that is barren,,
-2369,lulcXslope_vector,terrain_lulc,,clust_name,,cluster name ,,
-2370,lulcXslope_vector,terrain_lulc,,double,,Percentage of slope area in the micro-watershed that is double cropped,,
-2371,lulcXslope_vector,terrain_lulc,,forests,,Percentage of slope area in the micro-watershed that has tree cover,,
-2372,lulcXslope_vector,terrain_lulc,,id,,identifier,,
-2373,lulcXslope_vector,terrain_lulc,,sbcode,,sub-basin code,,
-2374,lulcXslope_vector,terrain_lulc,,shrub_scru,,Percentage of slope area in the micro-watershed that is shrubs and scrubs,,
-2375,lulcXslope_vector,terrain_lulc,,sing_khari,,Percentage of slope area in the micro-watershed that has single kharif cropping,,
-2376,lulcXslope_vector,terrain_lulc,,sing_non_k,,Percentage of slope area in the micro-watershed that has single non kharif cropping,,
-2377,lulcXslope_vector,terrain_lulc,,terrain_cl,,terrain cluster,,
-2378,lulcXslope_vector,terrain_lulc,,triple,,Percentage of slope area in the micro-watershed that has tripple/annual/perennial cropping,,
-2379,lulcXslope_vector,terrain_lulc,,uid,,unique identifier,,
+2354,lcw_conflict_vector,LCW Conflict,id,Date of publish,,date of publish,,
+2355,lcw_conflict_vector,LCW Conflict,Link to conflict,id,,identifier,,
+2356,lcw_conflict_vector,LCW Conflict,Title of Conflict,Link to conflict,,URL link to the conflict,,
+2357,lcw_conflict_vector,LCW Conflict,uid,Title of Conflict,,title / headline of the conflict,,
+2358,lcw_conflict_vector,LCW Conflict,uid,uid,,unique identifier,,
+2359,restoration_vector,Restoration Vector,area_in_ha,uid,,unique identifier,,
+2360,restoration_vector,Restoration Vector,Excluded Areas,area_in_ha,,area in hectares,,
+2361,restoration_vector,Restoration Vector,Mosaic Restoration,Excluded Areas,,areas that are excluded from restoration,,
+2362,restoration_vector,Restoration Vector,Protection,Mosaic Restoration,,area of land restored using a patchwork approach,,
+2363,restoration_vector,Restoration Vector,Wide-scale Restoration,Protection,,area that falls under protection measures,,
+2364,restoration_vector,Restoration Vector,LxS_cluste,Wide-scale Restoration,,area of land involved in broad scale restoration,,
+2365,lulcXslope_vector,terrain_lulc,area_in_ha,LxS_cluste,,lulc x plain cluster id,,
+2366,lulcXslope_vector,terrain_lulc,bacode,area_in_ha,,Area of micro-watershed in hectares,,
+2367,lulcXslope_vector,terrain_lulc,barren,bacode,,Basin code ,,
+2368,lulcXslope_vector,terrain_lulc,clust_name,barren,,Percentage of slope area in the micro-watershed that is barren,,
+2369,lulcXslope_vector,terrain_lulc,double,clust_name,,cluster name ,,
+2370,lulcXslope_vector,terrain_lulc,forests,double,,Percentage of slope area in the micro-watershed that is double cropped,,
+2371,lulcXslope_vector,terrain_lulc,id,forests,,Percentage of slope area in the micro-watershed that has tree cover,,
+2372,lulcXslope_vector,terrain_lulc,sbcode,id,,identifier,,
+2373,lulcXslope_vector,terrain_lulc,shrub_scru,sbcode,,sub-basin code,,
+2374,lulcXslope_vector,terrain_lulc,sing_khari,shrub_scru,,Percentage of slope area in the micro-watershed that is shrubs and scrubs,,
+2375,lulcXslope_vector,terrain_lulc,sing_non_k,sing_khari,,Percentage of slope area in the micro-watershed that has single kharif cropping,,
+2376,lulcXslope_vector,terrain_lulc,terrain_cl,sing_non_k,,Percentage of slope area in the micro-watershed that has single non kharif cropping,,
+2377,lulcXslope_vector,terrain_lulc,triple,terrain_cl,,terrain cluster,,
+2378,lulcXslope_vector,terrain_lulc,uid,triple,,Percentage of slope area in the micro-watershed that has tripple/annual/perennial cropping,,
+2379,lulcXslope_vector,terrain_lulc,wsconc,uid,,unique identifier,,
 2380,lulcXslope_vector,terrain_lulc,,wsconc,,Watershed code,,
