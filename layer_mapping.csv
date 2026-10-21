@@ -29,12 +29,12 @@ Tree cover change,raster,tree_cover_change_raster,25,tree_health_overall,Tree Ov
 Tree canopy height,raster,tree_canopy_height_raster,25,tree_health_ch,Canopy Height Raster,tree_ch_raster,,,ch_raster_{district}_{block}_{start_year},https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/main/Tree%20Health/tree_cover_change.qml,"tree cover, tree height"
 Landscape restoration opportunities,raster,wri_restoration_raster,,restoration,Restoration Raster,restoration,,,restoration_{district}_{block}_raster,https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/main/Restoration/Restoration_style.qml,restoration
 Water Balance,vector,water_balance_fortnightly_vector,,filtered_delta_g_fortnight_uid,Hydrology,mws_layers,,,deltaG_fortnight_{district}_{block},https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/refs/heads/main/Hydrology/water_balance_fortnightly.qml,"hydrology, water balance, fortnightly"
-WRI Restoration,vector,,,restoration_vector,Restoration Vector,restoration,,,restoration_{district}_{block}_vector,,restoration
+Restoration Opportunities,vector,restoration_vector,,restoration_vector,Restoration Vector,restoration,,,restoration_{district}_{block}_vector,,restoration
 Tree cover change,vector,tree_cover_change_vector,,tree_health_overall,Tree Overall Change Vector,tree_overall_vector,,,overall_change_vector_{district}_{block},,"tree cover, change"
 Land Use Land Cover,vector,land_use_land_cover_vector,,lulc_vector,LULC,lulc_vector,,,lulc_vector_{district}_{block},https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/refs/heads/main/Agriculture/Lulc_vector.qml,land use land cover
 ,vector,,,crop_grid,Crop GridXlulc,crop_grid_layers,,,{district}_{block}_grid,,
-,vector,,,lulcXplains_clusters,Terrain LULC,terrain_lulc,,,{district}_{block}_lulc_plain,,
-,vector,,,lulcXslopes_clusters,,terrain_lulc,,,{district}_{block}_lulc_slope,,
+Land use on Plains,vector,lulcXplain_vector,,lulcXplain_vector,Terrain LULC,terrain_lulc,,,{district}_{block}_lulc_plain,,
+Land use on Slopes,vector,lulcXslope_vector,,lulcXslope_vector,Terrain LULC,terrain_lulc,,,{district}_{block}_lulc_slope,,
 Drought Causality,vector,drought_causality_vector,,drought_causality,Drought Causality,drought_causality,,,{district}_{block}_drought_causality,,
 Catchment Area,raster,catchment_area_singleflow_raster,30,catchment_area_raster,Catchment Area,catchment_area_singleflow,,,catchment_area_{district}_{block}_raster,https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/refs/heads/main/Catchment/catchment_area_singleflow.qml,"hydrology, catchment"
 Natural Depressions,raster,natural_depressions_raster,30,natural_depression_raster,Natural Depression,natural_depression,,,natural_depression_{district}_{block}_raster,https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/refs/heads/main/Catchment/natural_depression.qml,"terrain, natural depressions"
@@ -53,6 +53,7 @@ DEM Vector,vector,dem_vector,,dem_vector,DEM Vector,dem,,,{district}_{block}_dem
 Drainage Density,vector,drainage_density_vector,,drainage_density_vector,Drainage Density Vector,drainage_density,,,{district}_{block}_drainage_density_vector,,
 River,vector,river_vector,,river_vector,River Vector,river ,,,{district}_{block}_river_vector,,
 Canal,vector,canal_vector,,canal_vector,Canal Vector,canal,,,{district}_{block}_canal_vector,,
+Land Conflict Watch,vector,lcw_conflict_vector,,lcw_conflict_vector,LCW Conflict,lcw,,,{district}_{block}_lcw_conflict,,
 Soil Health,vector,soil_health_vector,,soil_health_vector,Soil Health Vector,soil_health_vector,,,{district}_{block}_soil_health_vector,,
 Soil Type ,vector,soil_type_vector,,soil_type_vector,Soil Type,soil_type,,,soil_type_{district}_{block},,
 Forest Fringe,vector,forest_fringe_vector,,forest_fringe_vector,Forest Fringe,forest_fringes,,,{district}_{block}_forest_fringe,,
