@@ -30,7 +30,7 @@ Tree canopy height,raster,tree_canopy_height_raster,25,tree_health_ch,Canopy Hei
 Landscape restoration opportunities,raster,wri_restoration_raster,,restoration,Restoration Raster,restoration,,,restoration_{district}_{block}_raster,https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/main/Restoration/Restoration_style.qml,restoration
 Water Balance,vector,water_balance_fortnightly_vector,,filtered_delta_g_fortnight_uid,Hydrology,mws_layers,,,deltaG_fortnight_{district}_{block},https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/refs/heads/main/Hydrology/water_balance_fortnightly.qml,"hydrology, water balance, fortnightly"
 Restoration Opportunities,vector,restoration_vector,,restoration_vector,Restoration Vector,restoration,,,restoration_{district}_{block}_vector,,restoration
-Tree cover change,vector,tree_cover_change_vector,,tree_health_overall,Tree Overall Change Vector,tree_overall_vector,,,overall_change_vector_{district}_{block},,"tree cover, change"
+Tree cover change,vector,tree_cover_change_vector,,tree_cover_change_vector,Tree Overall Change Vector,tree_overall_vector,,,overall_change_vector_{district}_{block},,"tree cover, change"
 Land Use Land Cover,vector,land_use_land_cover_vector,,lulc_vector,LULC,lulc_vector,,,lulc_vector_{district}_{block},https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/refs/heads/main/Agriculture/Lulc_vector.qml,land use land cover
 ,vector,,,crop_grid,Crop GridXlulc,crop_grid_layers,,,{district}_{block}_grid,,
 Land use on Plains,vector,lulcXplain_vector,,lulcXplain_vector,Terrain LULC,terrain_lulc,,,{district}_{block}_lulc_plain,,
