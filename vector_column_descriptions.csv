@@ -665,20 +665,20 @@ start=0, intermediate=1",,NA
 663,lulc_vector,LULC,single_non_kharif_cropped_area_2018,single_non_kharif_cropped_area_2018,,single non kharif cropped area for 2018,,ha
 664,lulc_vector,LULC,cropland_area_2022,cropland_area_2022,,cropland area for 2022,,ha
 665,lulc_vector,LULC,system:index,system:index,,,,NA
-666,lulcXplain_vector,Terrain LULC,LxP_cluster,LxP_cluste,,lulc x plain cluster id,,NA
+666,lulcXplain_vector,Terrain LULC,LxP_cluster,LxP_cluster,,lulc x plain cluster id,,NA
 667,lulcXplain_vector,Terrain LULC,clust_name,clust_name,,cluster name ,,NA
 668,lulcXplain_vector,Terrain LULC,forest,forest,,Percentage of plain area in the micro-watershed that has tree cover,,percent
-669,lulcXplain_vector,Terrain LULC,shrubs_scr,shrubs_scr,,Percentage of plain area in the micro-watershed that is shrubs and scrubs,,percent
-670,lulcXplain_vector,Terrain LULC,terrain_cluster,terrain_cl,,terrain cluster,,NA
+669,lulcXplain_vector,Terrain LULC,shrubs_scrubs,shrubs_scrubs,,Percentage of plain area in the micro-watershed that is shrubs and scrubs,,percent
+670,lulcXplain_vector,Terrain LULC,terrain_cluster,terrain_cluster,,terrain cluster,,NA
 671,lulcXplain_vector,Terrain LULC,barren,barren,,Percentage of plain area in the micro-watershed that is barren,,percent
 672,lulcXplain_vector,Terrain LULC,uid,uid,,unique identifier,,NA
-673,lulcXplain_vector,Terrain LULC,sing_non_k,sing_non_k,,Percentage of plain area in the micro-watershed that has single non kharif cropping,,percent
+673,lulcXplain_vector,Terrain LULC,sing_non_kharif_crop,sing_non_kharif_crop,,Percentage of plain area in the micro-watershed that has single non kharif cropping,,percent
 674,lulcXplain_vector,Terrain LULC,sing_crop,sing_crop,,Percentage of plain area in the micro-watershed that has single kharif cropping,,percent
-675,lulcXplain_vector,Terrain LULC,double_cro,double_cro,,Percentage of plain area in the micro-watershed that is double cropped,,percent
+675,lulcXplain_vector,Terrain LULC,double_crop,double_crop,,Percentage of plain area in the micro-watershed that is double cropped,,percent
 676,lulcXplain_vector,Terrain LULC,area_in_ha,area_in_ha,,Area of micro-watershed in hectares,,ha
 677,lulcXplain_vector,Terrain LULC,id,id,,id,,NA
 678,lulcXplain_vector,Terrain LULC,system:index,system:index,,,,NA
-679,lulcXplain_vector,Terrain LULC,triple_cro,triple_cro,,Percentage of plain area in the micro-watershed that has tripple/annual/perennial cropping,,NA
+679,lulcXplain_vector,Terrain LULC,triple_crop,triple_crop,,Percentage of plain area in the micro-watershed that has tripple/annual/perennial cropping,,NA
 680,lulcXplain_vector,Terrain LULC,bacode,bacode,,basin area code ,,
 681,lulcXplain_vector,Terrain LULC,sbcode,sbcode,,sub-basin code,,
 682,lulcXplain_vector,Terrain LULC,wsconc,wsconc,,Watershed code,,
@@ -2367,7 +2367,7 @@ start=0, intermediate=1",,NA
 2362,restoration_vector,Restoration Vector,Mosaic Restoration,Mosaic Restoration,,area of land restored using a patchwork approach,,
 2363,restoration_vector,Restoration Vector,Protection,Protection,,area that falls under protection measures,,
 2364,restoration_vector,Restoration Vector,Wide-scale Restoration,Wide-scale Restoration,,area of land involved in broad scale restoration,,
-2365,lulcXslope_vector,terrain_lulc,LxS_cluste,LxS_cluste,,lulc x plain cluster id,,
+2365,lulcXslope_vector,terrain_lulc,LxS_cluster,LxS_cluster,,lulc x plain cluster id,,
 2366,lulcXslope_vector,terrain_lulc,area_in_ha,area_in_ha,,Area of micro-watershed in hectares,,
 2367,lulcXslope_vector,terrain_lulc,bacode,bacode,,Basin code ,,
 2368,lulcXslope_vector,terrain_lulc,barren,barren,,Percentage of slope area in the micro-watershed that is barren,,
@@ -2376,10 +2376,10 @@ start=0, intermediate=1",,NA
 2371,lulcXslope_vector,terrain_lulc,forests,forests,,Percentage of slope area in the micro-watershed that has tree cover,,
 2372,lulcXslope_vector,terrain_lulc,id,id,,identifier,,
 2373,lulcXslope_vector,terrain_lulc,sbcode,sbcode,,sub-basin code,,
-2374,lulcXslope_vector,terrain_lulc,shrub_scru,shrub_scru,,Percentage of slope area in the micro-watershed that is shrubs and scrubs,,
-2375,lulcXslope_vector,terrain_lulc,sing_khari,sing_khari,,Percentage of slope area in the micro-watershed that has single kharif cropping,,
-2376,lulcXslope_vector,terrain_lulc,sing_non_k,sing_non_k,,Percentage of slope area in the micro-watershed that has single non kharif cropping,,
-2377,lulcXslope_vector,terrain_lulc,terrain_cl,terrain_cl,,terrain cluster,,
+2374,lulcXslope_vector,terrain_lulc,shrub_scrub,shrub_scrub,,Percentage of slope area in the micro-watershed that is shrubs and scrubs,,
+2375,lulcXslope_vector,terrain_lulc,sing_kharif,sing_kharif,,Percentage of slope area in the micro-watershed that has single kharif cropping,,
+2376,lulcXslope_vector,terrain_lulc,sing_non_kharif,sing_non_kharif,,Percentage of slope area in the micro-watershed that has single non kharif cropping,,
+2377,lulcXslope_vector,terrain_lulc,terrain_cluster,terrain_cluster,,terrain cluster,,
 2378,lulcXslope_vector,terrain_lulc,triple,triple,,Percentage of slope area in the micro-watershed that has tripple/annual/perennial cropping,,
 2379,lulcXslope_vector,terrain_lulc,uid,uid,,unique identifier,,
 2380,lulcXslope_vector,terrain_lulc,wsconc,wsconc,,Watershed code,,
